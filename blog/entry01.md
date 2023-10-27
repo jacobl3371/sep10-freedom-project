@@ -6,6 +6,9 @@ The topic I chose was consumer services and their role in education, having a st
 * [Protecting Student Privacy While Using Online Educational Services](https://studentprivacy.ed.gov/training/protecting-student-privacy-while-using-online-educational-services)
 * [Privacy Concerns in the Age of Expanding Online Education](https://www.onlineeducation.com/features/privacy-concerns-in-the-age-of-online-education)
 
+##Engineering Design Process
+I am currently in the first stage of the engineering design process, where the main goal is to define the problem. The problem that I hope to solve with my project is that many educational services block access to their websites through Tor browser. Tor browser is the only tool that allows the user to access websites without them seeing the user's real ip address and location by routing all traffic over the Tor network, and uses isolation features built into the browser to isolate all browser activity from the rest of the activity on the operating system. The most private and secure way to access educational services where you must sign in with your real identity is through Tor browser as the information inputed into the browser is not associated with the rest of the activity on the operating system, but perhaps, if sites block access through the Tor network, accessing them through Tor browser would require the use of a different network. This way, my goal is to make educational services that block the Tor network accessible through Tor browser by configuring an installation of the browser to route all of its traffic through a VPN service instead of the Tor network in Tails OS.                                                                                        
+
 
 [Next](entry02.md)
 
