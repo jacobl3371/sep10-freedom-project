@@ -8,9 +8,10 @@
     * The website supports tor network, and even has a .onion website that you will automatically be redirected to if you have the setting enabled to always     * prioritize the version of sites ending in  .onion over their normal url [.onion website (only works in tor browser/network)]( https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/section/learning/lesson-plans)
 
 ### How I expanded on the knowledge of my topic since Entry 1. 
-Since blog entry 1, I have further researched my topic and how to achieve my specific goal which is meant to address and solve the problem which I defined which is limited access to online educational services needed to facilitate education through an anonymous,more so psuedononymous and compartmentalized means. 
+Since blog entry 1, I have further researched my topic and how to achieve my specific goal which is meant to address and solve the problem which I defined which is limited access to online educational services needed to facilitate education through an anonymous,more so psuedononymous and compartmentalized means. I 
 
-Text
+### Skills
+
 
 [Previous](entry01.md) | [Next](entry03.md)
 
