@@ -15,7 +15,7 @@ vpn.sn/vot.sh
 into the browser. 
 
 ### Engineering Design Process
-Following my research I expanded on my design, to ultimately facilitate my prototype. I download
+Following my research, I expanded on my design to ultimately facilitate my prototype. I downloaded Tails, and have done extensive research on how to aquire a crypto currency. Crytpo currency doesn't have to involve investing tons of money on hardware and electricity to mine bitcoin fortunes, as is often stigmatized and was the extent of my knowledge about the topic prior to m research. It is the best tool for anonymous payment when used properly over Tails, as well as being a useful day to day tool which is faster than traditional money transfer. In my use case, I would have to get a lower valued crypto currency which anonymous vpn accepts, this involving signing up to an accepted crypto transfer and buying the needed amount of that crytpo with a regular identity-linked payment method in which the funds are held on what is referred to as a custodial wallet, wherein the funds encryted on the private key which holds access to the wallet are held by the 3rd party site service 
 
 ### Skills
 A skill I expanded upon was problem decomposition.
