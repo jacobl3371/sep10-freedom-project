@@ -1,4 +1,4 @@
-[](url)# Entry 2
+# Entry 2
 ### Software and Hardware I Have Found Pertaining to My Topic
 * 1st search: “online education websites used in schools”
 * 1st website looked into: https://www.albert.io/blog/educational-teacher-websites/
