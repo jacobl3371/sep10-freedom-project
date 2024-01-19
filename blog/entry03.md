@@ -1,4 +1,4 @@
-### Topic: Attaining Free and Compartmentalized Access Your Education Online
+### Topic: Attaining Free and Compartmentalized Access to Your Education Online
 
 #### Context
   In my previous blogs, I have been referring to [this video](https://www.youtube.com/watch?v=c0GMU7sVECI) as the only sufficient guide for configuring a VPN over Tor in Tails. What the tutorial did not go over, however, was the payment method for users who want to use crypto and be fully anonymous, a choice which the company ultimately made themselves after they already published those videos; no longer accepting non-crypto payment methods as of writing blog 3. A new, revamped and polished tutorial needs to be available, as the guides by Anonymous VPN are not sufficient for most users who do not use crypto, or really now anything about it. The guide must explain what I had to research on my own; how to attain crypto currency and how to use it.
