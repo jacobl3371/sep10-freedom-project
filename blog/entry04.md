@@ -30,7 +30,7 @@ Coming to the conclusion that I could buy fractions of a crypto coin, I intended
 ### Skills
 1. I improved my **logical reasoning** skills as though I did not know and had never used Javascript before, I was able to follow the directions and make the navigation menu work with Javascript. I also saw that the first setup did not work in making the menu clickable and interactive, and I decided to try the other video which after following its instructions, finally produced a working menu and navigation bar.
    
-2. I learned to **embrace failure** and keep on trying to set up my tool even though it was very overwhelming at the start and the first tutorial which I managed to get to work didn't produce the expected outcome. I kept on trying despite failure and using what I learned to ultimately use the tool to achieve my desired outcome, getting the navigation bar to work.
+2. I learned to **embrace failure** and keep on trying to set up my tool even though it was very overwhelming at the start and the first tutorial which I managed to get to work didn't produce the expected outcome. I kept on trying despite failure and using what I learned to ultimately utilize the tool to achieve my desired outcome, getting the navigation bar to work.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
