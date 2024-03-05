@@ -11,12 +11,15 @@ I looked at many other software tools on the list, but I couldn't figure out how
 Everything else initially worked but I was unable to configure the menu to be clickable and display the hidden elements. So I instead followed [this tutorial](https://www.youtube.com/watch?v=X6CsbhSVUEc) and I was finally able to build a responsive navigation bar which collapes all of its displayed text when the screen-width is as narrow as a phone, turning into a menu which is clickable via Javascript, upon which it displays those collapsed elements and an 'x' icon to close out the menu. I also used [this code checker](https://zzzcode.ai/) to debug my broken code.
 
   - HTML:
+    
 ![html](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/8d3bdd98-4390-42d7-b52f-54fa1b3481cd)
 
   - Javascript:
+    
 ![java](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/8b116bd3-a35c-499a-965f-2f4054d7d814)
 
   - Webpage:
+    
 ![preview](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/01152434-e5dc-4d42-965f-6c8d11d15fc9)
 
 ### Skills
