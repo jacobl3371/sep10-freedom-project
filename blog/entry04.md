@@ -1,7 +1,7 @@
 # Entry 4
 ##### X/X/XX
 
-Text
+and two lines of javascript
 
 [Previous](entry03.md) | [Next](entry05.md)
 
