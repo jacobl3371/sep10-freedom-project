@@ -68,5 +68,13 @@ let sliderContainer = document.getElementById('sliderContainer');
 3/24/2024
 * Combining my carousel and navbar
     * Tinkering with freedom project webpage layout/wireframe
-* To make the carousel function properly and not bring the user back to the previous slide two seconds after they click
-    * 
+* I was examining the Javascript for the carousel and found that by removing this entire function:
+
+```
+function autoPlay(){     prev()      if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)){         slider.style.marginLeft = "0px";     }      setTimeout(() => {         autoPlay();     }, 3000); }
+```
+
+   * The carousel no longer auotoplayed and and permanently fixed to the slide the user had clicked on
+       * Only changing the slide when the user clicks on teh left or right arrow
+    
+* When rebuilding the carousel, I had to change ./images/imagename to ./img/imagename to match the name of the directory for my images which is named img

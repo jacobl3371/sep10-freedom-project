@@ -33,18 +33,6 @@ function prev() {
         slider.style.marginLeft = ((+slider.style.marginLeft.slice(0, -2)) + cardWidth) + 'px';
 }
 
-function autoPlay(){
-    prev()
-
-    if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)){
-        slider.style.marginLeft = "0px";
-    }
-
-    setTimeout(() => {
-        autoPlay();
-    }, 3000);
-}
-
 setTimeout(() => {
     autoPlay();
 }, 3000);
