@@ -74,7 +74,7 @@ let sliderContainer = document.getElementById('sliderContainer');
 function autoPlay(){     prev()      if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)){         slider.style.marginLeft = "0px";     }      setTimeout(() => {         autoPlay();     }, 3000); }
 ```
 
-   * The carousel no longer auotoplayed and and permanently fixed to the slide the user had clicked on
-       * Only changing the slide when the user clicks on teh left or right arrow
-    
+   * The carousel no longer autoplays and stays permanently fixed on the slide the user had clicked on
+       * The slide only changes when the user clicks on the left or right arrow
+
 * When rebuilding the carousel, I had to change ./images/imagename to ./img/imagename to match the name of the directory for my images which is named img
