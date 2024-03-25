@@ -11,7 +11,7 @@
             * The Javascript which was provided did not work
             * The menu icon wasn't even toggleable
             * Since I couldn't find any documentation I had to use a code debugger similar to Replit
-                * This did help me understand somewhat better how the tool works, aswell as how to incorporate it into HTML, CSS and Javascript
+                * This did help me understand somewhat better how the tool works, aswell as how to incorporate it into   HTML, CSS and Javascript
             * In the future though, I must utilize the Slack channel for TailwindCSS
             * I will use it to ask any questions and debug my code
             * Which will help me understand it a lot better than an automated debugger
@@ -61,10 +61,12 @@
 let sliderContainer = document.getElementById('sliderContainer');
 ```
 
-*
-    *
-    
-    * Can have the code within the parenthesis changed to only slider to reference only the ul element the elements forming the cards are inside and not the overlaying div
+* Can have the code within the parenthesis changed to only slider to reference only the ul element the elements forming the cards are inside and not the overlaying div
             * Making no difference in the output
 
 
+3/24/2024
+* Combining my carousel and navbar
+    * Tinkering with freedom project webpage layout/wireframe
+* To make the carousel function properly and not bring the user back to the previous slide two seconds after they click
+    * 
