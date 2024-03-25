@@ -78,3 +78,5 @@ function autoPlay(){     prev()      if (+slider.style.marginLeft.slice(0, -2) =
        * The slide only changes when the user clicks on the left or right arrow
 
 * When rebuilding the carousel, I had to change ./images/imagename to ./img/imagename to match the name of the directory for my images which is named img
+  * (*More than enough time to take a screenshot of a far-right slide since no faulty javascript function brings the user back to the first one automatically)
+![carousel](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/d93cb809-216d-414a-82f9-3b85a2e5537d)
