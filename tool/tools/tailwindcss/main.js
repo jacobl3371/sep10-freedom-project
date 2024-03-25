@@ -16,7 +16,7 @@ let cardWidth = sliderContainerWidth / elementsToShow;
 
 slider.style.width = cards.length * cardWidth + 'px';
 slider.style.transition='margin';
-slider.style.transitionDuration='1s';
+slider.style.transitionDuration='0.75s';
 
 for (let index = 0; index < cards.length; index++) {
     const element = cards[index];
@@ -31,6 +31,20 @@ function next() {
 function prev() {
     if (+slider.style.marginLeft.slice(0, -2) != 0)
         slider.style.marginLeft = ((+slider.style.marginLeft.slice(0, -2)) + cardWidth) + 'px';
+}
+
+function Menu(e){
+    let list = document.querySelector('ul');
+
+    if (e.name === 'menu-outline') {
+        e.name = "close";
+        list.classList.add('top-[80px]');
+        list.classList.add('opacity-100');
+    } else {
+        e.name = "menu-outline";
+        list.classList.remove('top-[80px]');
+        list.classList.remove('opacity-100');
+    }
 }
 
 setTimeout(() => {

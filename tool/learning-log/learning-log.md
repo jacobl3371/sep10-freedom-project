@@ -57,9 +57,9 @@
             * I was tinkering around with the code
             * The first line of Javascript
 
-```
-let sliderContainer = document.getElementById('sliderContainer');
-```
+    ```
+    let sliderContainer = document.getElementById('sliderContainer');
+    ```
 
 * Can have the code within the parenthesis changed to only slider to reference only the ul element the elements forming the cards are inside and not the overlaying div
             * Making no difference in the output
@@ -68,15 +68,26 @@ let sliderContainer = document.getElementById('sliderContainer');
 3/24/2024
 * Combining my carousel and navbar
     * Tinkering with freedom project webpage layout/wireframe
-* I was examining the Javascript for the carousel and found that by removing this entire function:
+    * I was examining the Javascript for the carousel and found that by removing this entire function:
 
-```
-function autoPlay(){     prev()      if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)){         slider.style.marginLeft = "0px";     }      setTimeout(() => {         autoPlay();     }, 3000); }
-```
+    ```
+    function autoPlay(){     prev()      if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)){         slider.style.marginLeft = "0px";     }      setTimeout(() => {         autoPlay();     }, 3000); }
+    ```
 
-   * The carousel no longer autoplays and stays permanently fixed on the slide the user had clicked on
-       * The slide only changes when the user clicks on the left or right arrow
-
-* When rebuilding the carousel, I had to change ./images/imagename to ./img/imagename to match the name of the directory for my images which is named img
+* The carousel no longer autoplays and stays permanently fixed on the slide the user had clicked on
+    * The slide only changes when the user clicks on the left or right arrow
   * (*More than enough time to take a screenshot of a far-right slide since no faulty javascript function brings the user back to the first one automatically)
 ![carousel](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/d93cb809-216d-414a-82f9-3b85a2e5537d)
+
+   * Surpisingly enough, I expected that by changing the the function prev to next in the above code snippet,
+
+    ```
+    function autoPlay(){     prev()      if (+slider.style.marginLeft.slice(0, -2) === -cardWidth * (cards.length - elementsToShow)){         slider.style.marginLeft = "0px";     }      setTimeout(() => {         autoPlay();     }, 3000); }
+    ```
+
+   * The carousel would function the exact same way but at least autoplay in the right direction
+    * This made the entire carousel be displayed wrong and not scroll at all, contradicting the rest of the code.
+* I do intend to add some sort of function similar to this autoplay function, one that allows the user to scroll infinitely
+    * Not having to go back if they reach the very right-most slide or are even at the starting slide
+* [Combing responsive navbar with toglleable menu icon and carousel](fp-temp.html)
+
