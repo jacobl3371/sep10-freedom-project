@@ -101,6 +101,8 @@
         * I tried to add a section to make space between the dropdown menu panel and the content
             * This didn't stop the menu from overlapping over *all* of the content including the carousel
 
+             ![fptemp](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/0ccc0b19-62a2-499d-8c6d-372c4097e6a7)
+             
             * This overlapping also made it so that the text can not be highlighted when hovered over
                 * This function works when the navbar is expanded and none of the content overlaps each other
         * I also saw that you could scroll infinitely in borth directions
