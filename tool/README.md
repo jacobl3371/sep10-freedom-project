@@ -1,4 +1,4 @@
-A collection of all of the software tools I will be using for my Freedom Project throughout SEP 10 and 11 and APCSA.
+A collection of all of the software tools I will be using for my Freedom Project throughout SEP 10.
 
 * ## Tool Folder:
     * HTML/Javascript files
