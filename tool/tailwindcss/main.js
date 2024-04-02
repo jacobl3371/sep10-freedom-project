@@ -16,7 +16,7 @@ let cardWidth = sliderContainerWidth / elementsToShow;
 
 slider.style.width = cards.length * cardWidth + 'px';
 slider.style.transition='margin';
-slider.style.transitionDuration='0.75s';
+slider.style.transitionDuration='1s';
 
 for (let index = 0; index < cards.length; index++) {
     const element = cards[index];
@@ -47,6 +47,3 @@ function Menu(e){
     }
 }
 
-setTimeout(() => {
-    autoPlay();
-}, 3000);

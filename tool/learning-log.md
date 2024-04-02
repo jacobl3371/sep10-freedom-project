@@ -1,3 +1,5 @@
+# Tool Learning Log
+
 3/4/24
 
 * Used TailwindCSS to create a responsive navbar webpage
@@ -47,7 +49,7 @@
         * I replaced all of the instances of image 1, 2, and 3 in the html with the links to the raw github image files
         * Swapped the words: next and prev in JS button functions
         * This makes the left and right buttons scroll in their specified direction
-        * I noticed that as soon as you click to scroll, it brings you back. So you have to click twice just to even scroll once
+        * I noticed that as soon as you click to scro2F146866607ll, it brings you back. So you have to click twice just to even scroll once
         * Let alone the fact that there is a few second timeout in which the slide goes back to the previous one after clicking
         * The user can click very fast to get from Heading 1 to Heading 8
             * It is really annoying if they are clicking at a *constant* not-fast-enough-speed
@@ -90,4 +92,16 @@
 * I do intend to add some sort of function similar to this autoplay function, one that allows the user to scroll infinitely
     * Not having to go back if they reach the very right-most slide or are even at the starting slide
 * [Combing responsive navbar with toglleable menu icon and carousel](fp-temp.html)
+
+
+3/25/2024
+* Fixing fp-temp.html
+    * Right now, my freedom project website template is not at the minimum viable product stage
+        * The menu is not outputted properly and flows over the content like the carousel
+        * I tried to add a section to make space between the dropdown menu panel and the content
+            * This didn't stop the menu from overlapping over *all* of the content including the carousel
+                
+            * This overlapping also made it so that the text can not be highlighted when hovered over
+                * This function works when the navbar is expanded and none of the content overlaps each other
+
 
