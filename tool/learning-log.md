@@ -100,8 +100,22 @@
         * The menu is not outputted properly and flows over the content like the carousel
         * I tried to add a section to make space between the dropdown menu panel and the content
             * This didn't stop the menu from overlapping over *all* of the content including the carousel
-                
+
             * This overlapping also made it so that the text can not be highlighted when hovered over
                 * This function works when the navbar is expanded and none of the content overlaps each other
+        * I also saw that you could scroll infinitely in borth directions
+        * There would be no slides, just blank space
+            * And since you could scroll infinitely, you had to scroll infinitely to get back to the slides!
+        * Wrapping the entire navbar in a div and adding the css:
 
+        ```
+        div {
+        margin: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+        ```
+
+        * Makes it so that the user can't scroll past the 8th slide or before the 1st
+            * But the carousel is not fully responsive yet and the user can't scroll to the 8th slide on the smallest screen size.
 

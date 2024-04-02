@@ -17,11 +17,8 @@
 
     div {
         margin: 10px;
-        padding: 10px;
-    }
-
-    .conatiner-fluid {
-        background-color: black !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     p {
@@ -30,13 +27,21 @@
         padding: 10px 10px 10px 10px;
         margin: 10px 10px 10px 10px;
     }
+
+    .container-fluid {
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
   </style>
 
 </head>
 
 <body>
-    <section>
-        <div class="container-fluid">
+        <div>
             <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
                 <div class="flex justify-between items-center">
                     <span class="text bold font-[Poppins] cursor-pointer">
@@ -47,32 +52,33 @@
                     <span class="text-3xl cursor-pointer mx-2 md:hidden block">
                         <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
                     </span>
+
                 </div>
+                <div class="conatiner-fluid">
+                    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white h-full w-full left-0 bottom-0 md:w-full md:h-full md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-cyan-500 duration-500">SERVICES</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-cyan-500 duration-500">ABOUT</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-cyan-500 duration-500">BLOG</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
+                        </li>
 
-                <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full h-full left-0 bottom-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="#" class="text-xl hover:text-cyan-500 duration-500">SERVICES</a>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="#" class="text-xl hover:text-cyan-500 duration-500">ABOUT</a>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="#" class="text-xl hover:text-cyan-500 duration-500">BLOG</a>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
-                    </li>
-
-                    <button class="bg-cyan-400 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded md:h-full">
-                        Get Started
-                    </button>
-                </ul>
-              </nav>
+                        <button class="bg-cyan-400 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded md:h-full">
+                            Get Started
+                        </button>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </section>
 
     <!--
     <section>
