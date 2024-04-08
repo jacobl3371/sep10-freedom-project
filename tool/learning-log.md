@@ -123,4 +123,39 @@
 
 4/3/2024
 * Making a responsive grid using tailwindcss
-    * CSS grid similar to bootstrap using only vanilla CSS
+* [grid](tailwind-grid.html)
+    * Tailwind uses a CSS grid similar to bootstrap but only utilizes vanilla CSS
+        * sm, md, lg, xl, 2xl followed by a colon and either row for vertical and col for horizontal and then span (to span accross the display) and the number of horizontal or vertical columns that div elements should occupy
+        * I added the classes
+
+        ```
+        lg:col-span-3
+        md:col-span-3
+        ```
+
+        * Which made the item which only took up one box take up all three available, leaving no empty space and being fully responsive to look good when the actual content is added.
+        * At one point item 6 and 7 did not span as far down vertically as item 8, so I changed the grid number from xl:row-span-6 to xl:row-span-7
+        * This cuased those items to take more vertical rows on the 2xl display as well, and adding row classes for the 2xl display for items 1 and 5 which were too short didn't work
+        * I had to declare the number of rows that item 8 occupies on an xl display
+
+        ```
+        xl:row-span-1
+        ```
+
+        * Which made all of the items aligned on all of the displays
+        * I couldn't figure out how to add space between the horizontally stacked items on the small display without it causing the first item to take up more rows than the other items
+
+        ```
+        screen-y-1
+        ```
+
+        * worked in creating the desired spacing on the smallest display but made the first item misaligned on all other displays
+        * So I set the class for the overlaying div containing all of the items in the grid to
+
+        ```
+         flex justify-center
+        ```
+
+        * Which made all of the items aligned horizontally and centered on the smallest display, and the very leats aligned and centered on all displays.
+        * [Original code](https://github.com/Crackiii/custom-tags-input/blob/master/responsive-grid/grid.html) for comparison
+

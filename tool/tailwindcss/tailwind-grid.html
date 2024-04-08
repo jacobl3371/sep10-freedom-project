@@ -1,21 +1,45 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <title>Grid</title>
+
+  <style>
+  </style>
+
 </head>
 
-<body class="m-0 p-0">
-  <div class="hidden sm:grid grid-row-1 grid-cols-1 gap-1 grid-flow-row sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
-    <div class="flex col-span-2 md:row-span-2 md:col-span-1 md:col-start-1 md:row-start-1">Item 1</div>
-    <div class="hidden md:flex md:row-span-1 md:col-span-2 md:col-start-2 md:row-start-1">Item 2</div>
-    <div class="hidden md:flex md:row-span-1 md:col-span-1 md:col-start-2 md:row-start-2">Item 3</div>
-    <div class="hidden md:flex md:row-span-1 md:col-span-1 md:col-start-3 md:row-start-2">Item 4</div>
-    <div class="hidden lg:flex lg:row-span-1 lg:col-start-4 lg:row-start-1">Item 5</div>
-    <div class="hidden lg:flex lg:row-span-1 lg:col-start-4 lg:row-start-2 xl:col-span-2">Item 6</div>
-    <div class="hidden xl:flex lg:row-span-1 lg:col-start-4 lg:row-start-1">Item 7</div>
-    <div class="hidden 2xl:flex 2xl:row-span-2 2xl:col-span-1 2xl:col-start-6 2xl:row-start-1">Item 8</div>
+<body class="m-0 p-12 flex flex-col justify-center" style="height: 100vh;">
+  <div class="sm:grid grid-row-1 grid-cols-1 gap-1 grid-flow-row sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 flex justify-center">
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full flex md:row-span-2 xl:row-span-5 md:col-span-1 md:col-start-1 md:row-start-1 2xl:row-span-6 lg:row-span-2">
+      Item 1</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full md:flex md:row-span-1 md:col-span-2 md:col-start-2 md:row-start-1">
+      Item 2</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full md:flex md:row-span-1 md:col-span-1 md:col-start-2 md:row-start-2">
+      Item 3</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full md:flex md:row-span-1 md:col-span-1 md:col-start-3 md:row-start-2">
+      Item 4</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full lg:flex lg:col-span-1 lg:col-start-4 lg:row-start-1 xl:col-span-2 xl:row-span-3 2xl:row-span-4">
+      Item 5</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full lg:flex lg:col-span-1 lg:col-start-4 lg:row-start-2 xl:row-start-1 xl:row-span-6">
+      Item 6</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full xl:flex xl:col-span-1 xl:col-start-5 xl:row-start-1 xl:row-span-6 sm:row-span-1 md:row-span-2 lg:row-span-2">
+      Item 7</div>
+    <div
+      class="flex flex-col rounded-md justify-center items-center uppercase bg-indigo-800 text-white h-60 min-h-full 2xl:flex 2xl:row-span-2 2xl:col-span-1 lg:col-span-3 lg:row-span-2 md:col-span-2 2xl:col-start-6 2xl:row-span-6 2xl:row-start-1 xl:row-span-1">
+      Item 8
+    </div>
   </div>
 </body>
 
