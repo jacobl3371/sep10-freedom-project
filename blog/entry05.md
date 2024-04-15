@@ -25,13 +25,26 @@ In order to learn my tool I usually watched video documentation and copy and pas
 
 There is not much you can accomplish in learning specific Tailwind code, you can only really get a feel for it like any other CSS-based framework or coding language. To understand Tailwind CSS fully, you need to learn CSS in general, and with Tailwind's responsive grid system which only utilizes vanilla CSS while using Bootstrap's familiar format, Tailwind is a lot easier to understand and use than Bootstrap.
 
-Original code for Tailwind grid:                                                    What I changed:
+Original code for Tailwind grid:
 
+![original](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/4d80d155-7110-49f0-9897-0b1c9942f98f)
+
+
+What I changed:
+
+![altered](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/d0e0e4b4-93cc-4a5e-83cc-c1336234b516)
+
+I will definitely be using Tailwind to build the responsive grid layout for the Freedom Project, as it is much easier to use than Bootstrap to achieve the specific desired layout including horizontal columns as well as vertical rows.
 
 
 ### Freedom Project MVP
 
 ### Skills
+
+1. I improved my skills on how to learn
+I examined video tutorials and copy and pasted the code provided in those videos to create components in my website using Tailwind CSS. I figured out how to create and alter a responsive grid, in which you can control teh amount of horizontala and vertical space and item takes up in your webpage. With my previous knowledge on HTML and CSS I was able to figure out the Tailwind CSS responsive grid system, not requiring any other documentation or external sources.
+
+2.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
