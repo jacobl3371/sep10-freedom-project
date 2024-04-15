@@ -21,7 +21,13 @@ example:
     ```
     lg:col-span-3
     ```
-In order to learn my tool I usually watched video documentation and copy and pasted code, which was usually linked within those same videos, for specific components that I wanted to include in my webpage and eventually my Freedom Project. I examined and tinkered with the code and looked in the comment section for any suggestions to improve the code such as swapping the incorrectly placed 'next' and 'prev' values of a carousel to make the right arrow go right and left arrow go left. There is not much you can accomplish in learning specific Tailwind code, you can only really get a feel for it like any other CSS-based framework or coding language. To understand Tailwind CSS fully, you need to learn CSS in general, and with Tailwind's responsive grid system which only utilizes vanilla CSS while using Bootstrap's familiar format, Tailwind is a lot easier to understand and use than Bootstrap.
+In order to learn my tool I usually watched video documentation and copy and pasted code, which was usually linked within those same videos, for specific components that I wanted to include in my webpage and eventually my Freedom Project. I examined and tinkered with the code and looked in the comment section for any suggestions to improve the code such as swapping the incorrectly placed 'next' and 'prev' values of a carousel to make the right arrow go right and left arrow go left.
+
+There is not much you can accomplish in learning specific Tailwind code, you can only really get a feel for it like any other CSS-based framework or coding language. To understand Tailwind CSS fully, you need to learn CSS in general, and with Tailwind's responsive grid system which only utilizes vanilla CSS while using Bootstrap's familiar format, Tailwind is a lot easier to understand and use than Bootstrap.
+
+Original code for Tailwind grid:        What I changed:
+
+
 
 ### Freedom Project MVP
 
