@@ -10,7 +10,7 @@ In the time given for the Freedom Project, I had to continue learning the tool I
 
 but this was just Javascript and not Tailwind CSS code. The carousel is ultimately not responsive and the navbar-menu, when the elements are collapsed on a small display, overlaps the other content and looks like this:
 
-
+![fp-temp](https://github.com/jacobl3371/sep10-freedom-project/assets/146866607/01bb43d5-1337-4c5a-8c71-875c4b2dd67b)
 
 I am definitely going to have to rebuild atleast the navbar if not the carousel as well.
 
