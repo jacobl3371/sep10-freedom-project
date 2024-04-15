@@ -25,7 +25,7 @@ In order to learn my tool I usually watched video documentation and copy and pas
 
 There is not much you can accomplish in learning specific Tailwind code, you can only really get a feel for it like any other CSS-based framework or coding language. To understand Tailwind CSS fully, you need to learn CSS in general, and with Tailwind's responsive grid system which only utilizes vanilla CSS while using Bootstrap's familiar format, Tailwind is a lot easier to understand and use than Bootstrap.
 
-Original code for Tailwind grid:        What I changed:
+Original code for Tailwind grid:                                                    What I changed:
 
 
 
