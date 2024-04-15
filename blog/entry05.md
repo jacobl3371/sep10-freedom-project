@@ -36,16 +36,18 @@ What I changed:
 
 I will definitely be using Tailwind to build the responsive grid layout for the Freedom Project, as it is much easier to use than Bootstrap to achieve the specific desired layout including horizontal columns as well as vertical rows.
 
-
-
 ### Freedom Project MVP
+I am currently working towards the minimum viable product for my Freedom Project. I have completed the wireframes for both the mobile and desktop layouts for my Freedom Project which includes all of the content from my Freedom Project Overview, Part A and Part B on the two different layouts. I need to make my carousel responsive by nesting it within a responsive div grid, and I need to recreate the navbar and potentially the carousel as well if the above solution doesn't work.
+
+I will transfer everything from my fp-temp.html file in my tailwindcss folder which is inside of the tool folder along with my learning log, into the index.html file which is directly in the sep10-freedom-project repo.
 
 ### Skills
 
 1. I improved my skills on how to learn
 I examined video tutorials and copy and pasted the code provided in those videos to create components in my website using Tailwind CSS. I figured out how to create and alter a responsive grid, in which you can control teh amount of horizontala and vertical space and item takes up in your webpage. With my previous knowledge on HTML and CSS I was able to figure out the Tailwind CSS responsive grid system, not requiring any other documentation or external sources.
 
-2.
+2. Creativity
+I strengthened my creativity when learning Tailwind CSS on my own. I figured out that you can use verticasl row classes to specify how much vertical space an object occupies, and have tried to replicate the simple and highly customizable and versatile Tailwind layouts in Bootstrap, having to make objects be in the same div class which specifies its responsiveness and that only working on the specified didplay and not looking exactly how I want it to. I realized that I could apply col as well as row classes to an object in Tailwind CSS to make its responsiveness highly versatile.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
