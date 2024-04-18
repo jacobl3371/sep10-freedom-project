@@ -5,20 +5,26 @@
 * [Desktop](https://wireframe.cc/aHiLXh)
 
 ## Colors
-* `#ABC123`
+*
 
 ## Fonts
 * [Text](URL)
 
 ## Timeline
-Tues, April 16th - Wed, May 1st
 
 #### MVP
 
-* Task/Timeline
+Tues, April 16th - Wed, May 1st:
+Wednesday, April 17th - Friday, Apri 19th:
+* Transfer fp-temp.html file inside of tailwindcss folder indside of the tool folder into index.html file inside of the sep10-freedom-project folder.
+* Build wireframes
+    * MVP no colors, minimal detail to spacing, just adding the bare content
 
 ---
 
 #### Beyond MVP
 
-* Task
+Spring Recess; Going beyond MVP:
+* Adding colors
+* Perfect spacing
+* Adding images to carousel
