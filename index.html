@@ -40,29 +40,46 @@
 
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-md sticky-top navbar-custom">
-        <a href="" class="navbar-brand fs-3 ms-3 text-white">SHABR</a>
-        <button class="navbar-toggler me-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
-        <ion-icon name="menu-outline"></ion-icon>
-        </button>
-      <div class="collape navbar-collapse ul-bg" id="btn">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link mx-3 text-white fs-5">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#info" class="nav-link mx-3 text-white fs-5">Info</a>
-          </li>
-          <li class="nav-item">
-            <a href="#gallery" class="nav-link mx-3 text-white fs-5">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link mx-3 text-white fs-5">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav><br>
+<body> <!--Navbar: https://blog.logrocket.com/building-responsive-navbar-tailwind-css/ -->
+    <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 bg-white">
+        <div class="hidden w-full md:flex md:items-center md:w-auto " id="menu">
+            <ul
+              class="
+                text-base text-gray-700
+                pt-4
+                md:flex
+                md:justify-between
+                md:pt-0"
+            >
+              <li>
+                <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
+                  >Customers</a
+                >
+              </li>
+              <li>
+                <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="md:p-4 py-2 block hover:text-purple-400"href="#"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+    </nav>
 
     <div class="flex">
         <div class="w-2/12 flex items-center">
