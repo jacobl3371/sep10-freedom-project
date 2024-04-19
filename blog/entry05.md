@@ -37,7 +37,7 @@ What I changed:
 I will definitely be using Tailwind to build the responsive grid layout for the Freedom Project, as it is much easier to use than Bootstrap to achieve the specific desired layout including horizontal columns as well as vertical rows.
 
 ### Freedom Project MVP
-I am currently working towards the minimum viable product for my Freedom Project. I have completed the wireframes for both the mobile and desktop layouts for my Freedom Project which includes all of the content from my Freedom Project Overview, Part A and Part B on the two different layouts. I need to make my carousel responsive by nesting it within a responsive div grid, and I need to recreate the navbar and potentially the carousel as well if the above solution doesn't work.
+I am currently working towards the minimum viable product for my Freedom Project. I have completed the wireframes for both the mobile and desktop layouts for my Freedom Project which includes all of the content from my Freedom Project Overview, Part A and Part B on the two different layouts. I need to make my carousel responsive by nesting it within a responsive div grid, and I need to recreate the navbar and potentially the carousel as well if the solution I mentioned doesn't work.
 
 I will transfer everything from my fp-temp.html file in my Tailwind css folder which is inside of the tool folder along with my learning log, into the index.html file which is directly in the sep10-freedom-project repo.
 
