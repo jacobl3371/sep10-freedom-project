@@ -1,14 +1,18 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 
   <style>
 
     nav {
-        padding: 10px;
+        padding: 15px;
         border-bottom: 1px solid lightgray;
     }
 
@@ -21,44 +25,61 @@
         box-shadow: none !important;
     }
 
+    .div1 {
+        margin: 15px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .div2 {
+        margin: 25px;
+    }
+
+    .platform {
+        position: relative;
+        transition:right 0.3s;
+    }
+
+    .body {
+        background-color:white !important;
+    }
+
+    .satisfy-regular {
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .font {
+        font-family: "Satisfy", cursive;
+    }
+
+    .background {
+        background-color: #f0f0f0;
+        border-radius: 15px;
+    }
+
   </style>
 
   <title>SEP 10 Freedom Project</title>
 </head>
-<body>
-
-</head>
 
 <body>
 
+<!--TAILWIND NAVBAR-->
+<section>
 <nav class="border-gray-200 mb-10">
     <div id="home"></div>
     <div class="w-full mx-auto">
         <div class="mx-2 flex flex-wrap items-center justify-between">
             <a href="#" class="flex">
-                <svg class="h-10 mr-3" width="51" height="70" viewBox="0 0 51 70" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0)">
-                        <path d="M1 53H27.9022C40.6587 53 51 42.7025 51 30H24.0978C11.3412 30 1 40.2975 1 53Z"
-                            fill="#76A9FA"></path>
-                        <path
-                            d="M-0.876544 32.1644L-0.876544 66.411C11.9849 66.411 22.4111 55.9847 22.4111 43.1233L22.4111 8.87674C10.1196 8.98051 0.518714 19.5571 -0.876544 32.1644Z"
-                            fill="#A4CAFE"></path>
-                        <path d="M50 5H23.0978C10.3413 5 0 15.2975 0 28H26.9022C39.6588 28 50 17.7025 50 5Z"
-                            fill="#1C64F2"></path>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0">
-                            <rect width="51" height="70" fill="white"></rect>
-                        </clipPath>
-                    </defs>
-                </svg>
+                <div>
+                    <h1 class="text-lg font">Freedom</h1>
+                </div>
             </a>
 
             <div class="flex md:hidden md:order-2">
                 <button data-collapse-toggle="mobile-menu-3" type="button"
-                    class="md:hidden text-gray-400 hover:text-gray-900 focus:outline-none box-shadow:none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center"
-                    aria-controls="mobile-menu-3" aria-expanded="false" box-shadow="none">
+                    class="md:hidden text-gray-400 hover:text-gray-900 focus:outline-none box-shadow:none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-3" aria-expanded="false" box-shadow="none">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -74,20 +95,20 @@
                 </button>
             </div>
             <div class="hidden md:flex justify-between items-end w-full md:w-auto md:order-1" id="mobile-menu-3">
-                <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+                <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-large">
                     <li>
-                        <a href="home"
-                            class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-purple-900 md:p-0">Home</a>
-                    </li>
-                    <div class="item-divider"></div>
-                    <li>
-                        <a href="fp project"
-                            class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-purple-900 md:p-0">Freedom Project</a>
+                        <a href="#"
+                            class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Home</a>
                     </li>
                     <div class="item-divider"></div>
                     <li>
                         <a href="#"
-                            class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-purple-900 md:p-0">Softwares Used</a>
+                            class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Freedom Project</a>
+                    </li>
+                    <div class="item-divider"></div>
+                    <li>
+                        <a href="#"
+                            class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Softwares Used</a>
                     </li>
                     <div class="justify-space"></div>
                 </ul>
@@ -95,11 +116,111 @@
         </div>
     </div>
 </nav>
+</section>
+<!--END TAILWIND NAVBAR-->
 
+<!--SOFTWARES USED CAROUSEL-->
+<section>
+    <div class="div1">
+        <span>
+            <h1 class="text-black text-lg">Softwares Used</h1>
+        </span>
+    </div>
+    <div class="relative w-full glide-05">
+        <!-- Slides -->
+        <div class="overflow-hidden" data-glide-el="track">
+            <ul class="relative h-full w-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
+                <li><img src="https://blog.torproject.org/sites/default/files/styles/full_width/public/image/tor-browser-android.png?itok=FpmHK4h-" class="w-full max-w-full max-h-full m-auto" /></li>
+                <li><img src="https://blog.desdelinux.net/wp-content/uploads/2019/10/Tails-logo.png" class="w-full max-w-full max-h-full m-auto" /></li>
+                <li><img src="https://vpn.sn/img/def.png" class="w-full max-w-full h-1/2 m-auto" /></li>
+                <li><img src="https://cdn.blogtienao.com/wp-content/uploads/2020/05/eletrum-bitcoin-wallet.jpg" class="w-full max-w-full max-h-full m-auto" /></li>
+            </ul>
+        </div>
+        <!-- Indicators -->
+        <div class="flex items-center justify-center w-full gap-2" data-glide-el="controls[nav]">
+            <button class="p-4 group" data-glide-dir="=0" aria-label="goto slide 1"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+            <button class="p-4 group" data-glide-dir="=1" aria-label="goto slide 2"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+            <button class="p-4 group" data-glide-dir="=2" aria-label="goto slide 3"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+            <button class="p-4 group" data-glide-dir="=3" aria-label="goto slide 4"><span class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+        </div>
+    </div>
+
+</section>
+<!--END SOFTWARES USED SECTION-->
+
+<!--FREEDOM PROJECT GRID SECTION-->
+<section class="div2">
+    <div class="div1">
+        <span>
+            <h1 class="text-black text-lg">Freedom Project</h1>
+        </span>
+    </div>
+    <div class="sm:grid text-center justify-center background">
+        <div class="rounded-md justify-center items-center text-black p-5 sm:col-span-12 md:row-span-3 md:col-span-1 md:row-start-1">
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Overview</div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+            </div>
+        </div>
+        <div class="rounded-md justify-center items-center text-black p-5 sm:col-span-12 md:row-span-2 md:col-span-1 md:row-start-1">
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Currently Existing Innovations</div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+            </div>
+        </div>
+        <div class="rounded-md justify-center items-center text-black p-5 sm:col-span-12 md:row-span-1 md:col-span-1 md:row-start-1 sm:row-start-1">
+            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Future Inventions</div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--END FREEDOM PROJECT SECTION-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+
+<!--
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+[old broken carousel]-->
+
 <script src="script.js"></script>
 <script>
+     var glide05 = new Glide('.glide-05', {
+        type: 'carousel',
+        focusAt: 'center',
+        perView: 3,
+        autoplay: 3000,
+        animationDuration: 700,
+        gap: 24,
+        classes: {
+            activeNav: '[&>*]:bg-slate-700',
+        },
+        breakpoints: {
+            1024: {
+                perView: 2
+            },
+            640: {
+                perView: 1
+            }
+        },
+    });
+
+    glide05.mount();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
 </body>
 </html>
