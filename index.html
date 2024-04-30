@@ -16,7 +16,7 @@
         border-bottom: 1px solid lightgray;
     }
 
-    .item-divider {
+    .item-div {
         border-right: 1px solid lightgray;
     }
 
@@ -58,6 +58,15 @@
         border-radius: 15px;
     }
 
+    .space {
+        margin: 5px;
+    }
+
+    h2 {
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 10px !important;
+    }
+
   </style>
 
   <title>SEP 10 Freedom Project</title>
@@ -71,12 +80,13 @@
     <div id="home"></div>
     <div class="w-full mx-auto">
         <div class="mx-2 flex flex-wrap items-center justify-between">
+            <!--PLACEHOLDER-->
             <a href="#" class="flex">
                 <div>
                     <h1 class="text-lg font">Freedom</h1>
                 </div>
             </a>
-
+            <!--END PLACEHOLDER-->
             <div class="flex md:hidden md:order-2">
                 <button data-collapse-toggle="mobile-menu-3" type="button"
                     class="md:hidden text-gray-400 hover:text-gray-900 focus:outline-none box-shadow:none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-3" aria-expanded="false" box-shadow="none">
@@ -100,12 +110,12 @@
                         <a href="#"
                             class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Home</a>
                     </li>
-                    <div class="item-divider"></div>
+                    <div class="item-div"></div>
                     <li>
                         <a href="#"
                             class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Freedom Project</a>
                     </li>
-                    <div class="item-divider"></div>
+                    <div class="item-div"></div>
                     <li>
                         <a href="#"
                             class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Softwares Used</a>
@@ -120,7 +130,7 @@
 <!--END TAILWIND NAVBAR-->
 
 <!--SOFTWARES USED CAROUSEL-->
-<section>
+<section class="div2">
     <div class="div1">
         <span>
             <h1 class="text-black text-lg">Softwares Used</h1>
@@ -155,46 +165,24 @@
             <h1 class="text-black text-lg">Freedom Project</h1>
         </span>
     </div>
-    <div class="sm:grid text-center justify-center background">
-        <div class="rounded-md justify-center items-center text-black p-5 sm:col-span-12 md:row-span-3 md:col-span-1 md:row-start-1">
-            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Overview</div>
-                  <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                  </p>
-                </div>
-            </div>
+    <div class="sm:grid grid-cols-2 grid-rows-3">
+        <div class="space md:col-span-1 md:row-span-3 bg-gray-100 p-4 rounded-xl">
+            <div class="space"><h2>Overview:</h2></div>
+            <p>When accessing all of the day to day services and viewing information on the web I believe that it is essential –and have found for myself that it eliminates such intrusions as spam and other data mining– to use Tor browser, which utilizes the Tor anonymity network. Many educational services which students must use throughout their lives such as the DOE-gatewayed, nycstudents.net Google Classroom login, and even the non-DOE Google Classroom block the only software, which by default is a sure-shot to anonymity and protection: Tor, and its decentralized relay enabled IP addresses which the user assumes once they  attempt to enter a website <a href="overview.html" class="hover:text-blue-800">. . . Read More</a></p>
         </div>
-        <div class="rounded-md justify-center items-center text-black p-5 sm:col-span-12 md:row-span-2 md:col-span-1 md:row-start-1">
-            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Currently Existing Innovations</div>
-                  <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                  </p>
-                </div>
-            </div>
+        <div class="space md:col-span-1 md:row-span-2 bg-gray-100 p-4 rounded-xl">
+            <h2>Currently Existing Innovations:</h2>
+            <p>My topic is about online services used for education, and how to facilitate the most compartmentalized, and pseudonymous access to your education, this being something that the world is lacking. The problem that I hope to solve with my project is that many educational services block access to their websites through Tor browser. Tor browser is the only tool that allows the user to access websites without them seeing the user's real IP address and subsequently, location by routing all traffic over the Tor network. But perhaps, if sites block access through the Tor network, accessing them through Tor browser would require the use of a different network. <a href="overview.html" class="hover:text-blue-800">. . . Read More</a></p>
         </div>
-        <div class="rounded-md justify-center items-center text-black p-5 sm:col-span-12 md:row-span-1 md:col-span-1 md:row-start-1 sm:row-start-1">
-            <div class="max-w-sm rounded-xl overflow-hidden shadow-lg">
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Future Inventions</div>
-                  <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                  </p>
-                </div>
-            </div>
+        <div class="space md:col-span-1 md:row-span-1 bg-gray-100 p-4 rounded-xl">
+            <h2>Future Inventions:</h2>
+            <p></p>
         </div>
     </div>
 </section>
 <!--END FREEDOM PROJECT SECTION-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
-
-<!--
-<script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
-[old broken carousel]-->
 
 <script src="script.js"></script>
 <script>
