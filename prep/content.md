@@ -1,15 +1,12 @@
 # Content
-Topic: X
+Topic: Attaining compartmentalized access to education in a digital era.
 
 ## Overview/Introduction/Context
-* Text
-* Text
+When accessing all of the day to day services and viewing information on the web I believe that it is essential –and have found for myself that it eliminates such intrusions as spam and other data mining– to use Tor browser, which utilizes the Tor anonymity network. Many educational services which students must use throughout their lives such as the DOE-gatewayed, nycstudents.net Google Classroom login, and even the non-DOE Google Classroom block the only software, which by default is a sure-shot to anonymity and protection: Tor, and its decentralized relay enabled IP addresses which the user assumes once they  attempt to enter a website. My topic is about how to facilitate the most compartmentalized, and pseudonymous access to your education, this being something that the infrastructure of public education in the ever growing digital age is lacking. The problem that I hope to solve with my project is that many educational services block access to their websites through Tor browser and its anonymization network Tor.
 
 ## Part A: existing technology
-* Tech
-  * Detail
-  * [image text](image URL)
+Tor browser is the only tool that allows the user to access websites without them seeing the user's real IP address and subsequently, location by routing all traffic over the Tor network, using the network to construct a firefox-based open-source browser which implements complete os-browser isolation if used correctly, providing the only true amnesic browser. But perhaps, if sites block access through the Tor network, accessing them through Tor browser would require the use of a different network
+  *  Configuring a network over Tor to be used in Tor browser but have the website which you are attempting to enter see the VPN's IP address and not that of the exit relay of the Tor network only can be achieved with the anonymous vpn service, which works only in the operating systems Tails and Whonix, which is only as secure as Tails when used through Qubes OS. Obviously the only simple way would be to use Tails OS, which also has the pre-installed Electrum Bitcoin Walletapplication which is necessary to acquire the VPN through Bitcoin payments.
 
 ## Part B: possible future technology
-* Idea
-  * Detail
+An innovation for the future of accessing online educational services which block Tor would be any easy to use, in-browser accessible free in-browser web application that provides a VPN or proxy network that could be used over Tor in Tor browser.

@@ -28,3 +28,4 @@ Spring Recess; Going beyond MVP:
 * Adding colors
 * Perfect spacing
 * Adding images to carousel
+
