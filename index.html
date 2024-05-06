@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <style>
 
@@ -53,8 +56,19 @@
         font-style: normal;
     }
 
+    .ubuntu-sans-mono-font2 {
+        font-family: "Ubuntu Sans Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
     .font {
         font-family: "Satisfy", cursive;
+    }
+
+    .font2 {
+        font-family: "Ubuntu Sans Mono", monospace;
     }
 
     .background {
@@ -80,7 +94,6 @@
 
 <!--TAILWIND NAVBAR-->
 <section>
-<div id="home"></div>
 <nav class="border-gray-200 mb-10 fixed top-0 bg-white w-full">
     <div class="w-full mx-auto">
         <div class="mx-2 flex flex-wrap items-center justify-between">
@@ -111,7 +124,7 @@
             <div class="hidden md:flex justify-between items-end w-full md:w-auto md:order-1" id="mobile-menu-3">
                 <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-large">
                     <li>
-                        <a href="#home"
+                        <a href="index.html"
                             class="text-gray-600 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-black md:p-0">Home</a>
                     </li>
                     <div class="item-div"></div>
@@ -132,15 +145,25 @@
 </section>
 <!--END TAILWIND NAVBAR-->
 
+<section class="p-12">
+    <div></div>
+</section>
+
 <!--TOPIC-->
 <section>
     <div class="div3">
-        <h1 class="text-center text-black font text-4xl p-16">Attaining Compartmentalized Access To Your Education In A Digital Era</h1>
+        <h1 class="text-center text-black font2 text-4xl p-16">Attaining Compartmentalized Access To Your Education In A Digital Era</h1>
     </div>
 </section>
 <!--END TOPIC SECTION-->
 
+<section class="p-8">
 <div id="freedom-project"></div>
+</section>
+
+<section class="p-4">
+    <div></div>
+</section>
 
 <!--FREEDOM PROJECT GRID SECTION-->
 <section class="div2">
@@ -167,24 +190,22 @@
 <!--END FREEDOM PROJECT SECTION-->
 
 <section>
-    <div>
-        <h1 class="text-center text-white font text-4xl p-8" id="softwares-used"></h1>
+    <div id="softwares-used">
+        <div class="text-center text-white font text-4xl p-8"></div>
     </div>
 </section>
 
 <section>
     <div>
-        <h1 class="text-center text-black font text-4xl p-16">Attaining Compartmentalized Access To Your Education In A Digital Era; Softwares I Used For The Freedom Project</h1>
+        <h1 class="text-center text-black font2 text-4xl p-16">Attaining Compartmentalized Access To Your Education In A Digital Era; Softwares I Used For The Freedom Project</h1>
     </div>
 </section>
 
 <section>
     <div>
-        <h1 class="text-center text-white font text-4xl p-4" id="softwares-used"></h1>
+        <div class="text-center text-white font text-4xl p-8"></div>
     </div>
 </section>
-
-<div id="softwares-used"></div>
 
 <!--SOFTWARES USED CAROUSEL-->
 <section class="div2">
@@ -243,4 +264,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
 </body>
+
 </html>
