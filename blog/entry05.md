@@ -1,5 +1,4 @@
-# Entry 5
-##### X/X/XX
+# Entry 5: Crafting The Website: Learning My Web Design Tool
 
 ### Finishing learning my tool
 In the time given for the Freedom Project, I had to continue learning the tool I chose, which in my case was the CSS framework Tailwind, documenting it in a separate learning-log in the tool folder. I had already built a responsive navbar and added a carousel following [this code](https://github.com/JAFSCodeSchool/multi-card-carousel-using-Tailwind-and-javascript/tree/master) on Github, which I had to make some minor adjustments to in order to make it function properly, like getting rid of the autoplay feature:
@@ -44,11 +43,11 @@ I will transfer everything from my fp-temp.html file in my Tailwind css folder w
 ### Skills
 
 1. I improved my skills on how to learn
-   
+
 I examined video tutorials and copy and pasted the code provided in those videos to create components in my website using Tailwind CSS. I figured out how to create and alter a responsive grid, in which you can control the amount of horizontal and vertical space an item takes up in your webpage. With my previous knowledge on HTML and CSS I was able to figure out the Tailwind CSS responsive grid system, not requiring any other documentation or external sources.
 
 2. Creativity
-   
+
 I strengthened my creativity when learning Tailwind CSS on my own. I figured out that you can use vertical row classes to specify how much vertical space an object occupies, and have tried to replicate the simple and highly customizable and versatile Tailwind layouts in Bootstrap, having to make objects be in the same div class which specifies its responsiveness and that only working on the specified display and not looking exactly how I want it to. I realized that I could apply col as well as row classes to an object in Tailwind CSS to make its responsiveness highly versatile.
 
 [Previous](entry04.md) | [Next](entry06.md)
