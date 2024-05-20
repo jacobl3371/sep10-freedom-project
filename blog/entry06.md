@@ -1,4 +1,4 @@
-Entry 6: Crafting The Website: How I Used My Web Design Tool
+# Entry 6: Crafting The Website: How I Used My Web Design Tool
 
 ### Crafting my website MVP
 
@@ -35,7 +35,7 @@ I organized my Freedom Project website into four different html files. One being
 
 My overview provides the context for the topic of my Freedom Project, which is that many services educational web applications which students must use every day, block the heart of anonymity on the internet, Tor, and make it so that nobody can access these services without having all of their data mined and collected. My obverview addresses the issue and states my goal.
 
-The currently existing inventions section discusses what services (sofware) are used to facilitate education online and that block privacy softwares from entering the site, as well as possible alternatives to proprietary learning services which I have researched applying a FOSS standard, some of these alternatives being services which educators could look into.
+The currently existing inventions section discusses what services (sofware) are used to facilitate education online and that block privacy softwares from entering the site, as well as possible alternatives to proprietary learning services which I have researched applying a FOSS standard, some of these alternatives being services which educators could look into. I have an accordion with three sections, the first discussing the software that need sto be acquired to psuedononymously access Google Classroom and other educational businesses such as College Board which is incompatible with Tor and any in-browser anonymity applications. The second section discusses the hardware required to facilitate this setup and the third section combined the software and hardware to solve the issue. 
 
 In my future innovations file I discuss the future of in-browser VPNs and in-browser virtual machines that would be built and configured for Tor Browser to effectively hide from a website which blocks Tor, the fact that you are entering from an IP Address which originates from the Tor network, and the web app mimics the behavior of a browser like Firefox, so website servers do not think anything of it. An in-browser virtual machine would allow students to use services like Edpuzzle which only work on the third-party cookie facilitating browser, chrome, and by loading an entire other operating system within a virtual machine built to work with Tor browser, the user could access these services like edpuzzle anonymously over Tor, in the amnesic Tor browser, as Edpuzzle only sees the chrome browser which you are accessing their site from, and not the non-third-party-cookie-supporting firefox-based Tor browser.
 
