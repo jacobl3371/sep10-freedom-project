@@ -14,10 +14,16 @@
 
   <style>
 
-    body {
+    .section1 {
         background-image: url("https://jacobl3371.github.io/sep10-freedom-project/img/background1.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        height: cover;
+        background-attachment: fixed;
+    }
+
+    .section2 {
+        background-image: url("https://jacobl3371.github.io/sep10-freedom-project/img/background2.jpg");
+        background-repeat: no-repeat;
         height: cover;
         background-attachment: fixed;
     }
@@ -145,7 +151,8 @@
 <body>
 
 <!--TAILWIND NAVBAR-->
-<section>
+<section class="section1">
+    <section>
     <nav class="mb-20 card2 w-full flex navtop top-0 fixed">
         <div id="home"></div>
         <div class="w-full mx-auto">
@@ -196,24 +203,26 @@
             </div>
         </div>
     </nav>
-</section>
+    </section>
 <!--END TAILWIND NAVBAR-->
 
 <section>
-    <div class="p-6">
-    </div>
+    <div class="p-12"></div>
 </section>
 
 <!--TOPIC-->
 <section>
     <div class="div3">
-        <h1 class="word font2 text-center text-white text-4xl m-4 mb-10 mt-10 p-16">Compartmentalizing Your Identity From Your Online Data</h1>
+        <h1 class="word font2 text-center text-white text-4xl">Compartmentalizing Your Identity From Your Online Data</h1>
     </div>
 </section>
 <!--END TOPIC SECTION-->
 
-<!--OVERVIEW-->
 <section>
+    <div class="p-6"></div>
+</section>
+
+<!--OVERVIEW-->
     <div class="p-8 border-b-0 border-gray-100 dark:border-gray-700 sm:grid grid-cols-3 grid-rows-2 2xl:grid-rows-1">
 
         <div class="text-gray-100 shadow-lg md:col-span-2 md:row-span-2 md:col-start-1 md:row-start-1 p-4 2xl:row-span-1 2xl:col-span-1 2xl:row-start-1 2xl:col-start-1 card rounded-xl space p-4">
@@ -237,7 +246,7 @@
 <!--END OVERVIEW SECTION-->
 
 <!--EDUCATIONAL SOFTWARE USED AND HARWARE PROVIDED-->
-<section>
+<section class="section2">
     <div class="p-16 border-b-0 border-gray-200 dark:border-gray-700 sm:grid grid-cols-1 grid-rows-1">
       <div class="mb-2 text-black card rounded-lg lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
         <div class="space"><h2 class="space2 mb-4">Softwares used to facilitate online education:</h2></div>
@@ -252,7 +261,7 @@
 <!--END TECHNOLOGIES USED IN SCHOOLS SECTION-->
 
 <!--CURRENTLY EXISTING INNOVATIONS-->
-<section>
+<section class="section1">
   <div id="accordion-collapse" class="p-8 mb-32" data-accordion="collapse">
       <h2 id="accordion-collapse-heading-1">
         <button type="button" class="card flex custom-button items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
