@@ -14,11 +14,8 @@
 
   <style>
 
-    body {
-        background-image: url("https://jacobl3371.github.io/sep10-freedom-project/img/background1.jpg");
-        background-repeat: no-repeat;
-        height: cover;
-        background-attachment: fixed;
+    .title-section {
+        background-image: url("https:/jacobl3371.github.io/sep10-freedom-project/img/lead.png");
     }
 
     nav {
@@ -93,15 +90,8 @@
         border-bottom: 1px solid lightgray;
     }
 
-    .card {
-        background-color: #384f65;
-    }
-
     .navcard {
-        background-image: url("https://jacobl3371.github.io/sep10-freedom-project/img/background1.jpg");
-        background-repeat: no-repeat;
-        height: cover;
-        background-attachment: fixed;
+        background-color: white;
         z-index: 1;
     }
 
@@ -109,8 +99,8 @@
         background: url("https://jacobl3371.github.io/sep10-freedom-project/img/logo.png");
         height: auto;
         width: auto;
-        max-height: 50px;
-        max-width: 50px;
+        max-height: 40px;
+        max-width: 40px;
     }
 
     .active {
@@ -133,7 +123,7 @@
     }
 
     .hovercolor:hover {
-        color: white;
+        color: black;
     }
 
   </style>
@@ -143,8 +133,8 @@
 
 <body>
 
-<!--TAILWIND NAVBAR-->
-<section class="section1">
+<section class="title-section">
+    <!--TAILWIND NAVBAR-->
     <section>
     <nav class="mb-20 navcard w-full flex navtop top-0 fixed">
         <div id="home"></div>
@@ -157,7 +147,7 @@
                 </a>
                 <div class="flex md:hidden md:order-2">
                     <button data-collapse-toggle="mobile-menu-3" type="button"
-                        class="md:hidden text-white hover:text-gray-900 focus:outline-none box-shadow:none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-3" aria-expanded="false" box-shadow="none">
+                        class="md:hidden text-black hover:text-gray-900 focus:outline-none box-shadow:none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100" aria-controls="mobile-menu-3" aria-expanded="false" box-shadow="none">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -176,17 +166,17 @@
                     <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-large">
                         <li>
                             <a href="#home"
-                                class="text-gray-300 hovercolor md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:p-0">Home</a>
+                                class="text-gray-700 hovercolor md:border-0 block pl-3 pr-4 py-2 md:p-0">Home</a>
                         </li>
                         <div class="item-div"></div>
                         <li>
                             <a href="#"
-                                class="text-gray-300 hovercolor md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:p-0">Currently Existing Inventions</a>
+                                class="text-gray-700 hovercolor md:border-0 block pl-3 pr-4 py-2 md:p-0">Currently Existing Inventions</a>
                         </li>
                         <div class="item-div"></div>
                         <li>
                             <a href="#"
-                                class="text-gray-300 hovercolor md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:p-0">Future Innovations</a>
+                                class="text-gray-700 hovercolor md:border-0 block pl-3 pr-4 py-2 md:p-0">Future Innovations</a>
                         </li>
                         <div class="justify-space"></div>
                     </ul>
@@ -195,39 +185,41 @@
         </div>
     </nav>
     </section>
-<!--END TAILWIND NAVBAR-->
+    <!--END TAILWIND NAVBAR-->
 
-<section>
-    <div class="p-16"></div>
-</section>
+    <section>
+        <div class="p-16"></div>
+    </section>
 
-<!--TOPIC-->
-<section>
-    <div class="div3">
-        <h1 class="font2 text-center text-white m-4 text-4xl">Compartmentalizing Your Identity From Your Online Data</h1>
-    </div>
-</section>
-<!--END TOPIC SECTION-->
+    <!--TOPIC-->
+    <section>
+        <div class="div3">
+            <h1 class="font2 text-center text-black m-4 text-4xl">Compartmentalizing Your Identity From Your Online Data</h1>
+        </div>
+    </section>
+    <!--END TOPIC SECTION-->
 
-<section>
+    <section>
     <div class="p-12"></div>
+    </section>
+
 </section>
 
 <!--OVERVIEW-->
-    <div class="p-8 border-b-0 border-gray-100 dark:border-gray-700 sm:grid grid-cols-3 grid-rows-2 2xl:grid-rows-1">
+    <div class="p-8 m-8 card rounded-xl sm:grid grid-cols-1 grid-rows-1">
 
-        <div class="text-gray-100 shadow-lg md:col-span-2 md:row-span-2 md:col-start-1 md:row-start-1 p-4 2xl:row-span-1 2xl:col-span-1 2xl:row-start-1 2xl:col-start-1 card rounded-xl space p-4">
-            <div class="space"><h1 class="text-lg text-white">Context</h1></div>
+        <div class="text-gray-900 space mb-3">
+            <div class="space"><h1 class="text-lg text-black">Context</h1></div>
             <p class="p-2">When accessing all of the day to day services and viewing information on the web I believe that it is essential –and have found for myself that it eliminates such intrusions as spam and other data mining– to use Tor browser, which utilizes the Tor anonymity network which allows the user to access websites without them seeing the user's real IP address and subsequently, location by routing all traffic over the Tor network, and uses isolation features built into the browser to isolate all browser activity from the rest of the activity on the operating system. Many educational services which students must use throughout their lives such as the DOE-gatewayed, nycstudents.net Google Classroom login, and even the non-DOE Google Classroom block the only software, which by default is the only software that completely anonymizes the user's internet traffic within an amnesic and isolationary browser: Tor, and its decentralized relay enabled IP addresses which the user assumes once they attempt to enter a website.</p>
         </div>
 
-        <div class="text-gray-100 shadow-lg md:col-span-1 md:row-span-1 md:col-start-3 md:row-start-1 p-4 2xl:row-span-1 2xl:col-span-1 2xl:row-start-1 2xl:col-start-2 card rounded-xl space p-4">
-            <div class="space"><h1 class="text-lg text-white">Addressing The Issue</h1></div>
+        <div class="text-gray-900 space mb-3">
+            <div class="space"><h1 class="text-lg text-black">Addressing The Issue</h1></div>
             <p class="p-2">My topic is about how to facilitate the most compartmentalized, and pseudonymous access to your education, this being something that the infrastructure of public education in the ever growing digital age is lacking. The problem that I hope to solve with my project is that many educational services block access to their websites through Tor browser.</p>
         </div>
 
-        <div class="text-gray-100 shadow-lg md:col-span-1 md:row-span-1 md:col-start-3 md:row-start-2 p-4 2xl:row-span-1 2xl:col-span-1 2xl:row-start-1 2xl:col-start-3 card rounded-xl space p-4">
-            <div class="space"><h1 class="text-lg text-white">Identifying My Goal</h1></div>
+        <div class="text-gray-900 space mb-3">
+            <div class="space"><h1 class="text-lg text-black">Identifying My Goal</h1></div>
             <p class="p-2">Perhaps, if sites block access through the Tor network, accessing them through Tor browser would require the use of a different network. This way, my goal is to make educational services that block the Tor network accessible through Tor browser by configuring an installation of the browser to route all of its traffic through a VPN service instead of the Tor network.
             </p>
         </div>
@@ -238,25 +230,25 @@
 
 <!--EDUCATIONAL SOFTWARE USED AND HARWARE PROVIDED-->
 <section class="section2">
-    <div class="p-16 border-b-0 border-gray-200 dark:border-gray-700 sm:grid grid-cols-1 grid-rows-1">
-      <div class="mb-2 card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
-        <div class="space"><h2 class="space2 text-white mb-4">Softwares used to facilitate online education:</h2></div>
-            <div class="sm:grid grid-rows-2 grid-cols-2">
-                <p class="text-white sm:col-span-2 sm:row-span-1 col-start-1 row-start-1 md:col-span-1 md:row-span-1 p-4 md:mb-20">Currently, if you try to access the nycstudents.net Google classroom login through Tor browser, you will see this error message, saying that the service is unavailable since the DOE servers detected the use of tor exit nodes masking the IP address of the user requesting the website from the server, and they take the liberty to make sure that no one anonymizing their traffic through Tor in Tor browser could ever use their services. Most people would give up and use a regular browser after this, but I wanted to see how much agency a K-12 students relying on digital services facilitated by Google and the DOE for access to their education could actually acquire.</p>
-                <div class="md:col-span-2 md:row-span-1 col-start-2 row-start-1 lg:col-span-1 lg:row-span-1 p-4 mb-20"><img src="img/nycdoe-classroom-tor.png"></div>
-                <div class="sm:col-span-2 sm:row-span-1 md:col-start-1 row-start-2 lg:col-span-1 lg:row-span-1 p-4 md:mb-20"><img src="img/gclassroom-tor.png"></div>
-                <p class="text-white md:col-span-2 md:row-span-1 lg:col-start-2 row-start-2 lg:col-span-1 md:row-span-1 p-4 mb-20">Even the regular classroom.google.com url blocks the Tor network when you attempt to enter it from Tor browser. 9 out of 10 times when you type in the url into Tor browser and click enter, you will be prompted with this 403 error URL declinement message.</p>
-                <p class="text-white sm:col-span-2 sm:row-span-1 col-start-1 row-start-3 md:col-span-1 md:row-span-1 p-4 md:mb-20">The other tenth of the time, you may get to the login but will be prompted with a message saying that Google's services are not available in your country. This is the error I am usually prompted with when trying to access Google Classroom through Tor via Google drive or Docs to get around the classroom.google.com url block. On a seldom occassion it may work and I am able to access regular Google Classroom services (hstat.org login) through Tor in Tor browser, but most of the time you will be prompted with this error. I didn't understand it at first since Tor exit relays origniate from countries all over Europe and North America, so I couldn't see how Google could block their services for those IP addresses. Only after I clicked the 'learn more' button I realized that Google was just trying to facilitate complete hostility to all IP addresses detected as Tor exit relays, most being blocked at this point, and justifying the denial of their Google workspace services to Tor users under the guise that their service can not be distributed to the totalitarian regime which the Tor user who is entering the website from the United States behind a Netherlands or France-run exit relay supposedly lives under.</p>
+    <div class="p-16 sm:grid grid-cols-1 grid-rows-1">
+      <div class="card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 mb-4 p-8">
+        <div class="space"><h2 class="space2 text-black mb-4">Software used to facilitate online education:</h2></div>
+            <div class="sm:grid grid-rows-12F146866607 grid-cols-2">
+                <p class="text-black md:col-span-2 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4 xl:mb-20">Currently, if you try to access the nycstudents.net Google classroom login through Tor browser, you will see this error message, saying that the service is unavailable since the DOE servers detected the use of tor exit nodes masking the IP address of the user requesting the website from the server, and they take the liberty to make sure that no one anonymizing their traffic through Tor in Tor browser could ever use their services. Most people would give up and use a regular browser after this, but I wanted to see how much agency a K-12 students relying on digital services facilitated by Google and the DOE for access to their education could actually acquire.</p>
+                <div class="md:col-span-2 md:row-span-1 col-start-2 row-start-3 lg:col-span-1 lg:row-span-1 p-4 mb-20"><img src="img/nycdoe-classroom-tor.png"></div>
+                <div class="md:col-span-2 md:row-span-1 md:col-start-1 row-start-2 lg:col-span-1 lg:row-span-1 p-4 xl:mb-20"><img src="img/gclassroom-tor.png"></div>
+                <p class="text-black md:col-span-2 md:row-span-1 col-start-2 row-start-2 lg:col-span-1 lg:row-span-1 p-4 mb-20">Even the regular classroom.google.com url blocks the Tor network when you attempt to enter it from Tor browser. 9 out of 10 times when you type in the url into Tor browser and click enter, you will be prompted with this 403 error URL declinement message.</p>
+                <p class="text-black md:col-span-2 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4 xl:mb-20">The other tenth of the time, you may get to the login but will be prompted with a message saying that Google's services are not available in your country. This is the error I am usually prompted with when trying to access Google Classroom through Tor via Google drive or Docs to get around the classroom.google.com url block. On a seldom occassion it may work and I am able to access regular Google Classroom services (hstat.org login) through Tor in Tor browser, but most of the time you will be prompted with this error. I didn't understand it at first since Tor exit relays origniate from countries all over Europe and North America, so I couldn't see how Google could block their services for those IP addresses. Only after I clicked the 'learn more' button I realized that Google was just trying to facilitate complete hostility to all IP addresses detected as Tor exit relays, most being blocked at this point, and justifying the denial of their Google workspace services to Tor users under the guise that their service can not be distributed to the totalitarian regime which the Tor user who is entering the website from the United States behind a Netherlands or France-run exit relay supposedly lives under.</p>
                 <div class="md:col-span-2 md:row-span-1 col-start-2 row-start-3 lg:col-span-1 lg:row-span-1 p-4 mb-20"><img src="img/gclassroomlogin-tor.png"></div>
-                <div class="md:col-span-2 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 mb-20"><img src="img/torusers_3rdratetreatment.png"></div>
-                <p class="text-white md:col-span-2 md:row-span-1 col-start-2 row-start-4 lg:col-span-1 lg:row-span-1 p-4 lg:mb-20">Google lists some of the dictatorships that they restrict their business services to like Russia, Cuba, Russian-occupied Ukrainian territories like Luhansk and Donetsk, the Islamic Republic of Iran, North Korea and Syria. Most people in these regions don't even have internet access, let alone are accessing Google workspace services in these countries with no educational system or economy. Google saw that they could kill two birds with one stone by blocking their workspace services in these underdeveloped regimes which are all currently at war, either more directly or not, with the West, and cripple Tor user's ability to compartmentalize their identity on google classroom in Tor Browser from the rest of the data on their operating system and devices, basically saying that people who want to securely and pseudononymously access Google's workspace services through the use of the only free open and source software that does this; Tor and Tor browser, should be given as little capability to do so as someone living without internet in a war-torn regime.</p>
+                <div class="md:col-span-2 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 xl:mb-20"><img src="img/torusers_3rdratetreatment.png"></div>
+                <p class="text-black md:col-span-2 md:row-span-1 col-start-2 row-start-4 lg:col-span-1 lg:row-span-1 p-4 mb-20">Google lists some of the dictatorships that they restrict their business services to like Russia, Cuba, Russian-occupied Ukrainian territories like Luhansk and Donetsk, Iran, North Korea and Syria. Most people in these regions don't even have internet access, let alone are accessing Google workspace services in these countries with no educational system or economy. Google saw that they could kill two birds with one stone by blocking their workspace services in these underdeveloped regimes which are all currently at war, either more directly or not, with the West, and cripple Tor user's ability to compartmentalize their identity on google classroom in Tor Browser from the rest of the data on their operating system and devices, basically saying that people who want to securely and pseudononymously access Google's workspace services through the use of the only free open and source software that does this; Tor and Tor browser, should be given as little capability to do so as someone living without internet in a war-torn regime.</p>
             </div>
-      </div>
-      <div class="text-black card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
-        <div class="space"><h2 class="space2 text-white mb-4">Hardware used to facilitate online education:</h2></div>
-        <p class="text-white">To acquire the vpn.sn service, the user needs to pay with Bitcoin, the universal crypto currency, which unlike the other crypto currencies the service accepts, can not only be acquired anonymously, but also used anonymously in Tails which uses Tor to route all operation by default including the pre-installed Electrum Bitcoin wallet application which doesn't even require persistent storage to be enabled as the wallet can be restored via the seed generated when the wallet is first created, which you must write down in a physical non-electronic form in case your computer or Tails usb device fails! Though of course keeping as little data saved in the persistent storage is optimal for keeping everything you don’t want saved to be anonymized and unlinked from all other data on the OS, so I do not keep the Electrum wallet stored on a Peristent storage partition and restore it each time in Tails using the generated wallet seed.</p>
-      </div>
+        </div>
+    <div class="card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
+        <div class="space"><h2 class="space2 text-black mb-4">Hardware used to facilitate online education:</h2></div>
+        <p class="text-black"></p>
     </div>
+</div>
 <!--END TECHNOLOGIES USED IN SCHOOLS SECTION-->
 
 <!--CURRENTLY EXISTING INNOVATIONS-->
@@ -364,17 +356,17 @@
 <!--FUTURE INVENTIONS-->
 <section class="section3">
 <section class="p-8">
-<div class="card shadow-lg sm:grid grid-cols-2 grid-rows-2 md:grid-rows-1 p-8 p-8">
+<div class="card sm:grid grid-cols-2 grid-rows-2 md:grid-rows-1 p-8 p-8">
     <div class="sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 rounded-xl md:col-start-1 md:row-start-1 space p-4">
         <img src="img/startpage-search.png" class="text-center" alt="img">
     </div>
     <div class="sm:col-span-2 grid-rows-1 row-span-1 md:col-span-1 md:col-start-2 md:row-start-1 bg-white rounded-xl space p-4">
         <a>Anonymous View Proxy Button Optomized To Access services in Tor Browser which block Tor</a>
     </div>
-    <div class="sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 md:col-start-1 md:row-start-2 space p-4">
+    <div class="text-black sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 md:col-start-1 md:row-start-2 space p-4">
         <p>An innovation for the future of accessing services which block Tor would be any easy to use, in-browser accessible free VPN or proxy network that could be used in Tor Browser to effectively hide from the website that the user is actually accessing the website from the overlaying Tor network.</p>
     </div>
-    <div class="sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 md:col-start-2 md:row-start-2 space p-4">
+    <div class="text-black sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 md:col-start-2 md:row-start-2 space p-4">
         <p>An innovation for the future of accessing services which block Tor would be any easy to use, in-browser accessible free VPN or proxy network that could be used in Tor Browser to effectively hide from the website that the user is actually accessing the website from the overlaying Tor network.</p>
     </div>
 </div>
@@ -383,11 +375,11 @@
 
 <!--DEMONSTRATION OF FUTURE SOFTWARE-->
 <section class="p-8">
-<div class="card shadow-lg sm:grid grid-cols-2 sm:grid-rows-1 p-8 rounded-xl p-8">
+<div class="card sm:grid grid-cols-2 sm:grid-rows-1 p-8 rounded-xl p-8">
     <div class="sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 rounded:2xl p-2 md:col-start-1 md:row-start-1 space">
         <img src="img/browser-vm.png" class="text-center" alt="gif">
     </div>
-    <div class="sm:col-span-2 grid-rows-1 row-span-1 md:col-span-1 md:col-start-2 p-2 md:row-start-1 rounded-xl space p-4">
+    <div class="text-black sm:col-span-2 grid-rows-1 row-span-1 md:col-span-1 md:col-start-2 p-2 md:row-start-1 rounded-xl space p-4">
        The only future inventions to look into for anonymizing access to websites that block tor and/or are not compatible with the security features of Tor browser would be the revivement and development of in-browser virtual machines. It wouldn't make sense to recreate startpage's anonymous view in-browser proxy stoftware if there is no much chance that educational services like Edpuzzle which require Google's third party advertising and tracking cookies only facilitatable via their browser, chrome. If Tor browser can no longer be configured to not use Tor network, and these services can currently opnly be accessed through different browsers and operating systems (In the case of downloading Mullvad VPN on Fedora or Debian and configuring a system wide VPN), than the ony way to really ever access these services with the gaurantee that you can bypass their anti-privacy detections and retain access would be to run entire standalone operating syetms which can have different browsers and VPN networks configured within them, while never losing the overlaying anonymity of Tor.
     </div>
 </div>
