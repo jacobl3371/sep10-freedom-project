@@ -221,7 +221,7 @@
 <!--END OVERVIEW SECTION-->
 
 <!--EDUCATIONAL SOFTWARE USED AND HARWARE PROVIDED-->
-<section class="section2">
+<section>
     <div class="p-16 sm:grid grid-cols-1 grid-rows-1">
       <div class="card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
         <div class="space"><h2 class="space2 text-black mb-4">Software used to facilitate online education:</h2></div>
@@ -242,13 +242,28 @@
             <p class="text-black md:col-span-2 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4 md:mb-20">If a student does not have their own devices to access the Google workspace for education services, they will be provided a Google Chromebook by the Department of Education. This hardware serves the behest of Google and the DOE and was designed to streamline student monitoring and data collection accross the services they use on their chromebook.</p>
             <div class="md:col-span-2 md:row-span-1 col-start-2 row-start-3 lg:col-span-1 lg:row-span-1 p-4 mb-20"><img src="img/hardware-provided.png"></div>
             <div class="md:col-span-2 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 xl:mb-20"><img src="img/nocontrol-overdatacollected.jpg"></div>
-            <p class="text-black md:col-span-2 md:row-span-1 col-start-2 row-start-4 lg:col-span-1 lg:row-span-1 p-4 mb-20">The Electronic Frontier Foundation (EFF) discusses <a href="https://www.eff.org/files/2017/04/13/student-privacy-report.pdf">the implications of school issued devices on student privacy.</a></p>
+            <p class="text-black md:col-span-2 md:row-span-1 col-start-2 row-start-4 lg:col-span-1 lg:row-span-1 p-4 mb-20">The Electronic Frontier Foundation (EFF) discusses <a href="https://www.eff.org/files/2017/04/13/student-privacy-report.pdf" class="text-blue-500 hover:text-blue-800">the implications of school issued devices on student privacy.</a></p>
         </div>
     </div>
 </div>
 <!--END TECHNOLOGIES USED IN SCHOOLS SECTION-->
 
 <!--CURRENTLY EXISTING INNOVATIONS-->
+<div class="card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
+    <div class="space"><h2 class="space2 text-black mb-4">Combining existing technologies to solve the issue:</h2></div>
+    <div class="sm:grid grid-cols-1 grid-rows-1">
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-1 lg:col-span-1 lg:row-span-1 p-4 ">I researched what in-browser solution or externally configurable VPN could be used to access websites in Tor browser which block Tor. </p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-2 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-homepage.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-search.png"></div>
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">I found the startpage search engine, which has a free anonymous view option, accessible in the form of a clickable button next to each search result, to bring the user to the proxied view of the website.</p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-anonproxy-loading.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/torframework-inbrowser-solution.png"></div>
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">This software works by first directly connecting to the requesting website, and then relaying the information back to the user second-hand through an anonymous view proxy. This worked for me to be able to access the DOE, idpcloud.nycenet.edu Google Classroom login for about 2 weeks before Google or the DOE detcted and caught on to the anonymity entering from the in-browser proxy IP address gives me, and blocked the software.</p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/nycdoelogin-anonproxy.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/doeclassroom-enterattempt-anonproxy.png"></div>
+    </div>
+</div>
+
     <div id="accordion-collapse" class="p-8" data-accordion="collapse">
       <h2 id="accordion-collapse-heading-1">
         <button type="button" class="card custom-button items-center justify-between w-full p-5 font-medium rtl:text-right text-black rounded-top" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
@@ -339,10 +354,9 @@
         <div>
           <h2 class="p-4 text-center text-black dropdown">Coding The Setup</h2>
           <div class="p-8 border border-b-1 border-gray-200 sm:grid grid-cols-2 grid-rows-1 mt-0">
-              <p class="mb-2 text-black lg:col-span-1 lg:row-span-1 lg:col-start-1 p-2">To access services which block Tor browser, you would require an Intel based laptop that is not locked down with any additional software. The only VPN which can be attained and configured over Tor in Tor browser to have the site see VPN’s IP address is Anonymous VPN (vpn.sn) which requires which is only configured, this being advertised on the vpn.sn website as well, for two operating systems in the entire world, the hardware based, external drive running live system, Tails, and the virtualized system which is designed to be used in a virtual machine, the only secure way being the default setup on the compartmentalizational internal-drive system Qubes. It is exponentially easier to use Tails in general, especially for configuring files on the operating system when setting up the VPN network to be used instead of the Tor network.
+              <p class="mb-2 text-black lg:col-span-2 lg:row-span-1 lg:col-start-1 p-2">Currently, if you try to follow <a href="https://vpn.sn/setup/tails/level_2-tails-os-tor-vpn" class="text-blue-500 hover:text-blue-800">the tutorial for configuring the VPN.sn anonymous service over Tor in Tails, you will not be able to facilitate the setup due to updates made to Tor browser.</a></p>
               </p>
-              <p class="text-black lg:col-span-1 lg:row-span-1 lg:col-start-2 p-2">To acquire the vpn.sn service, the user needs to pay with Bitcoin, the universal crypto currency, which unlike the other crypto currencies the service accepts, can not only be acquired anonymously, but also used anonymously in Tails which uses Tor to route all operation by default including the pre-installed Electrum Bitcoin wallet application and doesn't even require persistent storage to be enabled as the wallet can be restored via the generated seed when it i's first created, which you would write down somewhere else anyways to have some redundancies to secure your money! Though of course keeping as little data saved in the persistent storage is optimal for keeping everything you don’t want saved to be anonymized and unlinked from all other data on the OS.
-              </p>
+
           </div>
         </div>
       </div>
@@ -364,7 +378,7 @@
         <p>An innovation for the future of accessing services which block Tor would be any easy to use, in-browser accessible free VPN or proxy network that could be used in Tor Browser to effectively hide from the website that the user is actually accessing the website from the overlaying Tor network.</p>
     </div>
     <div class="text-black sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 md:col-start-2 md:row-start-2 space p-4">
-        <p>An innovation for the future of accessing services which block Tor would be any easy to use, in-browser accessible free VPN or proxy network that could be used in Tor Browser to effectively hide from the website that the user is actually accessing the website from the overlaying Tor network.</p>
+        <p>Since you can not unconfigure the Tor network from the modern Tor browser, the only way to access websites that block Tor within the browser is to implement an in-browser solution like startpage's anonymous proxy, wherein the user via Tor, connects to the proxy or virtual machine which then directly connects to the website, teh website only seeing that IP address and the user having the information relayed second hand from the virtual machine or proxy which the website the user is entering from Tor browser only sees that network, and not Tor.</p>
     </div>
 </div>
 </section>
