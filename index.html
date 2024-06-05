@@ -261,6 +261,9 @@
         <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">This software works by first directly connecting to the requesting website, and then relaying the information back to the user second-hand through an anonymous view proxy. This worked for me to be able to access the DOE, idpcloud.nycenet.edu Google Classroom login for about 2 weeks before Google or the DOE detcted and caught on to the anonymity entering from the in-browser proxy IP address gives me, and blocked the software.</p>
         <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/nycdoelogin-anonproxy.png"></div>
         <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/doeclassroom-enterattempt-anonproxy.png"></div>
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">I tried to find individual, paid VPN services that could be configured over/after Tor</p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/tor-framework-vpnaftertor"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/\vpnovertor-solution"></div>
     </div>
 </div>
 
@@ -354,9 +357,12 @@
         <div>
           <h2 class="p-4 text-center text-black dropdown">Coding The Setup</h2>
           <div class="p-8 border border-b-1 border-gray-200 sm:grid grid-cols-2 grid-rows-1 mt-0">
-              <p class="mb-2 text-black lg:col-span-2 lg:row-span-1 lg:col-start-1 p-2">Currently, if you try to follow <a href="https://vpn.sn/setup/tails/level_2-tails-os-tor-vpn" class="text-blue-500 hover:text-blue-800">the tutorial for configuring the VPN.sn anonymous service over Tor in Tails, you will not be able to facilitate the setup due to updates made to Tor browser.</a></p>
+              <p class="mb-2 text-black lg:col-span-1 lg:row-span-1 lg:col-start-1 p-2">Currently, if you try to follow <a href="https://vpn.sn/setup/tails/level_2-tails-os-tor-vpn" class="text-blue-500 hover:text-blue-800">the tutorial for configuring the VPN.sn anonymous service over Tor in Tails,</a> you will not be able to facilitate the setup due to updates made to Tor browser. <a href="https://vpn.sn/setup/linux/level_2-linux-os" class="text-blue-500 hover:text-blue-800">You could try to follow this setup for configuring the service as a system-wide VPN over a regular distribution of Linux</a> like Debian or Fedora, and since Tor browser can not be configured to not use Tor, you would use Mullvad browser which doesn't utilize Tor</p>
               </p>
-
+              <div class="mb-2 lg:col-span-1 lg:row-span-1 lg:col-start-2 p-2">
+                <img src="img/mullvad.jpeg">
+              </div>
+              </p>
           </div>
         </div>
       </div>
