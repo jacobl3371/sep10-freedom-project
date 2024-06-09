@@ -24,15 +24,62 @@
         border-right: 1px solid lightgray;
     }
 
+    .section-border {
+        padding: 5px;
+        font-size: 30px !important;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        margin-bottom: 10px !important;
+    }
+
     button:focus {
         outline: none !important;
         box-shadow: none !important;
     }
 
     .title-section {
-        background: url("https://jacobl3371.github.io/sep10-freedom-project/img/title.png");
-        height: auto;
-        width: auto;
+        background-image: url("https://jacobl3371.github.io/sep10-freedom-project/img/title.png");
+        background-size: cover, 100%;
+        background-position: center !important;
+        width: 100% !important;
+        height: 1000px;
+        background-repeat: none !important;
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        -webkit-text-stroke: 2px black;
+    }
+
+    @media (max-width: 1000px) {
+        .title {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            -webkit-text-stroke: 1px black;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .text {
+            font-size: 36px;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .text {
+            font-size: 48px;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .text {
+            font-size: 60px;
+        }
     }
 
     .div1 {
@@ -44,25 +91,11 @@
         margin: 25px;
     }
 
-    .div3 {
-        margin-top: 35px;
-    }
-
-    .satisfy-regular {
-        font-family: "Satisfy", cursive;
-        font-weight: 400;
-        font-style: normal;
-    }
-
     .ubuntu-sans-mono-font2 {
         font-family: "Ubuntu Sans Mono", monospace;
         font-optical-sizing: auto;
         font-weight: 900;
         font-style: normal;
-    }
-
-    .font {
-        font-family: "Satisfy", cursive;
     }
 
     .font2 {
@@ -105,11 +138,6 @@
 
     .hovercolor:hover {
         color: black;
-    }
-
-    .outlined-text {
-        color: white;
-        text-shadow: 1px solid black;
     }
 
   </style>
@@ -173,32 +201,24 @@
 </section>
 <!--END TAILWIND NAVBAR-->
 
+<!--TITLE-->
 <section class="title-section">
 
-    <section>
-        <div class="p-16"></div>
-    </section>
-
-    <!--TOPIC-->
-    <section>
-        <div class="div3">
-            <h1 class="font2 text-center outlined-text m-4 text-4xl">Compartmentalizing Your Identity From Your Online Data</h1>
-        </div>
-    </section>
-    <!--END TOPIC SECTION-->
-
-    <section>
-    <div class="p-12"></div>
-    </section>
+    <div class="title">
+        <h1 class="font2 text-center outlined-text m-4 text">Compartmentalizing Your Identity From Your Online Data</h1>
+    </div>
 
 </section>
+<!--END TITLE SECTION-->
 
 <!--OVERVIEW-->
-    <div class="p-8 m-8 card rounded-xl sm:grid grid-cols-1 grid-rows-1">
+    <div class="p-8 m-8 sm:grid grid-cols-1 grid-rows-1">
+
+        <h1 class="section-border font2 text-black">Context</h1>
 
         <div class="text-gray-900 space mb-3">
             <div class="space"><h1 class="text-lg text-black">Context</h1></div>
-            <p class="p-2">When accessing all of the day to day services and viewing information on the web I believe that it is essential –and have found for myself that it eliminates such intrusions as spam and other data mining– to use Tor browser, which utilizes the Tor anonymity network which allows the user to access websites without them seeing the user's real IP address and subsequently, location by routing all traffic over the Tor network, and uses isolation features built into the browser to isolate all browser activity from the rest of the activity on the operating system. Many educational services which students must use throughout their lives such as the DOE-gatewayed, nycstudents.net Google Classroom login, and even the non-DOE Google Classroom block the only software, which by default is the only software that completely anonymizes the user's internet traffic within an amnesic and isolationary browser: Tor, and its decentralized relay enabled IP addresses which the user assumes once they attempt to enter a website.</p>
+            <p class="p-2">When accessing all of the day to day services and viewing information on the web I believe that it is essential –and have found for myself that it eliminates such intrusions as spam and other data mining– to use Tor browser, an up-to-date, free and open-source, privacy optimised version of Mozilla Firefox which utilizes the Tor anonymity network allowing the user to access websites without them seeing the user's real IP address and subsequently, location by routing all traffic over the Tor network, and uses isolation features built into the browser to isolate all browser activity from the rest of the activity on the operating system. Many websites including educational services which students must use throughout their lives such as the DOE-gatewayed, nycstudents.net Google Classroom login, and even the non-DOE Google Classroom block the only software, which by default completely anonymizes the user's internet traffic within an amnesic and isolationary browser: Tor, and its decentralized relay enabled IP addresses which the user assumes once they attempt to enter a website.</p>
         </div>
 
         <div class="text-gray-900 space mb-3">
@@ -219,7 +239,8 @@
 <!--EDUCATIONAL SOFTWARE USED AND HARWARE PROVIDED-->
 <section>
     <div class="p-16 sm:grid grid-cols-1 grid-rows-1">
-      <div class="card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
+    <h1 class="section-border font2 text-black">Technologies Used In Schools</h1>
+        <div class="lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
         <div class="space"><h2 class="space2 text-black mb-4">Software used to facilitate online education:</h2></div>
             <div class="sm:grid grid-cols-2 grid-rows-1">
                 <p class="text-black md:col-span-2 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4 xl:mb-20">Currently, if you try to access the nycstudents.net Google classroom login through Tor browser, you will see this error message, saying that the service is unavailable since the DOE servers detected the use of tor exit nodes masking the IP address of the user requesting the website from the server, and they take the liberty to make sure that no one anonymizing their traffic through Tor in Tor browser could ever use their services. Most people would give up and use a regular browser after this, but I wanted to see how much agency a K-12 students relying on digital services facilitated by Google and the DOE for access to their education could actually acquire.</p>
@@ -245,91 +266,27 @@
 <!--END TECHNOLOGIES USED IN SCHOOLS SECTION-->
 
 <!--CURRENTLY EXISTING INNOVATIONS-->
-<div class="card rounded-xl lg:col-span-1 lg:row-span-1 lg:col-start-1 p-8">
-    <div class="space"><h2 class="space2 text-black mb-4">Combining existing technologies to solve the issue:</h2></div>
-    <div class="sm:grid grid-cols-1 grid-rows-1">
+<div class="p-16">
+    <h1 class="section-border font2 text-black">Pseudononymously Accessing Websites That Block Tor</h1>
+    <div class="p-8 sm:grid grid-cols-1 grid-rows-1">
+        <div class="space"><h2 class="space2 text-black mb-4">Combining existing technologies to solve the issue:</h2></div>
         <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-1 lg:col-span-1 lg:row-span-1 p-4 ">I researched what in-browser solution or externally configurable VPN could be used to access websites in Tor browser which block Tor. </p>
         <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-2 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-homepage.png"></div>
         <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-search.png"></div>
         <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">I found the startpage search engine, which has a free anonymous view option, accessible in the form of a clickable button next to each search result, to bring the user to the proxied view of the website.</p>
-        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-anonproxy-loading.png"></div>
-        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/torframework-inbrowser-solution.png"></div>
-        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">This software works by first directly connecting to the requesting website, and then relaying the information back to the user second-hand through an anonymous view proxy. This worked for me to be able to access the DOE, idpcloud.nycenet.edu Google Classroom login for about 2 weeks before Google or the DOE detcted and caught on to the anonymity entering from the in-browser proxy IP address gives me, and blocked the software.</p>
-        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/nycdoelogin-anonproxy.png"></div>
-        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/doeclassroom-enterattempt-anonproxy.png"></div>
-        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-4 lg:col-span-1 lg:row-span-1 p-4 ">I tried to find individual, paid VPN services that could be configured over/after Tor</p>
-        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/tor-framework-vpnaftertor.png"></div>
-        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-3 lg:col-span-1 lg:row-span-1 p-4"><img src="img/\vpnovertor-solution.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-5 lg:col-span-1 lg:row-span-1 p-4"><img src="img/startpage-anonproxy-loading.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-6 lg:col-span-1 lg:row-span-1 p-4"><img src="img/torframework-inbrowser-solution.png"></div>
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-7 lg:col-span-1 lg:row-span-1 p-4 ">This software works by first directly connecting to the requesting website, and then relaying the information back to the user second-hand through an anonymous view proxy. This worked for me to be able to access the DOE, idpcloud.nycenet.edu Google Classroom login for about 2 weeks before Google or the DOE detcted and caught on to the anonymity entering from the in-browser proxy IP address gives me, and blocked the software.</p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-8 lg:col-span-1 lg:row-span-1 p-4"><img src="img/nycdoelogin-anonproxy.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-9 lg:col-span-1 lg:row-span-1 p-4"><img src="img/doeclassroom-enterattempt-anonproxy.png"></div>
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-10 lg:col-span-1 lg:row-span-1 p-4">I tried to find individual, paid VPN services that could be configured over/after Tor</p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-11 lg:col-span-1 lg:row-span-1 p-4"><img src="img/tor-framework-vpnaftertor.png"></div>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-12 lg:col-span-1 lg:row-span-1 p-4"><img src="img/\vpnovertor-solution.png"></div>
+        <p class="text-black md:col-span-1 md:row-span-1 col-start-1 row-start-13 lg:col-span-1 lg:row-span-1 p-4">This service could only be configured in two operating systems, Tails and Whonix, which route all operation on the system over Tor by default. </p>
+        <div class="md:col-span-1 md:row-span-1 col-start-1 row-start-12 lg:col-span-1 lg:row-span-1 p-4"><img src="img/\whonix-tails.jpeg"></div>
     </div>
 </div>
 
-    <div id="accordion-collapse" class="p-8" data-accordion="collapse">
-      <h2 id="accordion-collapse-heading-1">
-        <button type="button" class="card custom-button items-center justify-between w-full p-5 font-medium rtl:text-right text-black rounded-top" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
-          <span class="p-4">Software that needs to be acquired to access educational services which block the Tor network and subsequently Tor browser</span>
-          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-          </svg>
-        </button>
-      </h2>
-      <div id="accordion-collapse-body-1" class="hidden background" aria-labelledby="accordion-collapse-heading-1">
-          <div class="p-8 border border-b-0 border-fill border-gray-200 sm:grid grid-cols-2 grid-rows-1">
-            <p class="mb-2 text-black lg:col-span-1 lg:row-span-1 lg:col-start-1 p-4">To access services through Tor browser which block the Tor network, you would need to configure a VPN network to be seen by the website instead of the Tor network, the best and only way to do this is on an all-Tor, by default anonymous linux system. The only VPN which can be attained and configured over Tor in Tor browser to have the site see the VPN’s IP address and not the Tor network is Anonymous VPN (vpn.sn) which is only designed, <a href="https://vpn.sn/" class="text-blue-500 hover:text-blue-800">this being advertised on the vpn.sn website,</a> for two operating systems in the entire world; the hardware based, external-drive-running live system, Tails, and the virtualized system which is designed to be used in a virtual machine, Whonix (pronounced 'hoo-nix'), the only secure way to use this OS being the default setup on the compartmentalizational internal-drive system Qubes. It is exponentially easier to use Tails than Qubes and Whonix in general, especially for configuring files on the operating system when setting up the VPN network to be used instead of the Tor network.
-            </p>
-            <p class="text-black lg:col-span-1 lg:row-span-1 lg:col-start-2 p-4">To acquire the vpn.sn service, the user needs to pay with Bitcoin, the universal crypto currency, which unlike the other crypto currencies the service accepts, can not only be acquired anonymously, but also used anonymously in Tails which uses Tor to route all operation by default including the pre-installed Electrum Bitcoin wallet application which doesn't even require persistent storage to be enabled as the wallet can be restored via the seed generated when the wallet is first created, which you would write down somewhere else anyways to have some redundancies to secure your money! Though of course keeping as little data saved in the persistent storage is optimal for keeping everything you don’t want saved to be anonymized and unlinked from all other data on the OS.
-            </p>
-          </div>
-      </div>
-      <h2 id="accordion-collapse-heading-2">
-        <button type="button" class="card items-center custom-button justify-between w-full p-5 font-medium rtl:text-right text-black" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-          <span class="p-4">Hardware requirements</span>
-          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-          </svg>
-        </button>
-      </h2>
-      <div id="accordion-collapse-body-2" class="hidden background" aria-labelledby="accordion-collapse-heading-2">
-          <div class="p-8 border border-b-0 border-gray-200 sm:grid grid-cols-3 xl:grid-rows-1 grid-rows-3 h-auto">
-              <p class="mb-2 text-black md:col-span-1 md:row-span-3 md:col-start-1 md:row-start-1 p-4 2xl:col-span-1 2xl:row-start-1 2xl:col-start-1">
-                  For the most part, the topic of anonymity and privacy on the internet are clickbait, any windows-based pc with a graphics card and cpu which are both Intel and do not have any proprietary-software tied to their hardware can fully operate any linux distro, including Tails which is the only easily usable, vastly accessible OS (unlike Whonix which is only as secure as Tails on the super convoluted, difficult to use Qubes OS) which first of all supports, and has the VPN made for it, which is the only VPN you can acquire which has any documentation for a configuration after the Tor-network and before the site which actually sees the IP and decides if it is allowed to enter, and second of all uses Tor for all of the operation on the OS, exponentially limiting any place where data could be leaked and collected by other applications, especially on windows (or even mac and chrome os) that collect all data and lock down the system, stream lining personally-identifying data collection when you use identity-linked school/work services on browsers and operating systems which collect and distribute everything.
-              </p>
-              <p class="text-black background md:col-span-2 md:row-span-1 md:col-start-2 md:row-start-1 p-4 2xl:col-span-1 2xl:row-start-1 2xl:col-start-2">
-                  Any hardware made by Apple or Microsoft, or a Google-implemented chromebook for that matter, will most likely not work for the super specific setup of accessing services which block Tor while still entering the website through Tor browser, at least without hardware modification, regardless of the cpu and graphics card being Intel as they have proprietary software tied to key hardware features. Most likely every old intel macbook, definitely the last Intel laptop Apple made in 2017, has proprietary code in the wifi adapter that prevents its use on any linux system, and requires an external adapter which you must buy (at a hefty price of $80), and that is not the one which belongs to Apple even though you paid for the entire device, including the internal wifi adapter.
-              </p>
-              <div class="text-black md:col-span-2 md:row-span-2 md:col-start-2 md:row-start-2 p-4 2xl:col-span-1 2xl:row-start-1 2xl:col-start-3">
-                <p>In short, in order to be able to functionally operate the linux system which is required for transcending sites blockage of the Tor network while still retaining your compartmentalized psuedonymity, you would need a laptop which is not manufactured by Apple, Microsoft or Google, and doesn't have any of their hardware tied to proprietary software only in their operating systems their operating systems. If you are aiming to attain a free and open source operating system and software compatible PC, you would at all costs avoid any:</p>
-                  <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside ml-4">
-                    <li>
-                        Chromebooks
-                    </li>
-                    <li>
-                        Macbooks
-                    </li>
-                    <li>
-                        Microsoft Surface Computers
-                    </li>
-                    <li>
-                        Gaming computers, especially made by designated gaming PC companies
-                    </li>
-                    <li>
-                        Any laptop with any other proprietary-tied hardware such as NVIDIA graphics cards or AMD CPUs, or for that matter, Apple's M1 and M2 CPUs
-                    </li>
-                  </ul>
-                </div>
-              <p class="text-black col-span-3 row-span-3 p-4">
-                As long as you have a PC which is not a chromebook or macbook and comes with Windows preinstalled, uses Intel for both the graphics card and cpu, and is a regular non-gaming model laptop produced by either Lenovo, HP, or even Dell, Asus or Acer than it will have no problem being compatible with all linux distributions including Tails which is required to facilitate this project. You will want a newer PC with Windows 11 pre-installed and more than 2GB (at least 8) of RAM to be able to run Tails. You will also need two usb sticks, one thumb drive for running Tails and one regular usb stick for installing Debian beforehand on your PC which most likely runs windows 11 and can not be used without creating a Microsoft account and linking your phone number to all operation on the device, requiring a seperate old computer running windows 10, which can most likely be used for free at any public library, to install Debian on and than replace the operating system of the hard drive of your new windows 11 laptop with that of the free open source GNU linux operating system, from which you will be free to use your laptop to install Tails and burn it to the thumb drive with pre-installed Debian software that is completly unavailable and has no alternative on Windows.
-              </p>
-          </div>
-      </div>
-      <h2 id="accordion-collapse-heading-3">
-        <button type="button" class="card items-center custom-button justify-between w-full p-5 font-medium rtl:text-right text-black" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-          <span class="p-4">Combining existing technologies to solve the issue</span>
-          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-          </svg>
-        </button>
-      </h2>
-      <div id="accordion-collapse-body-3" class="hidden background" aria-labelledby="accordion-collapse-heading-3">
         <div>
           <h2 class="p-4 text-center text-black border dropdown">Prerequisites</h2>
           <div class="p-8 border border-b-0 border-gray-200 sm:grid grid-cols-2 grid-rows-1 mb-0">
@@ -348,26 +305,18 @@
                 </ul>
               </div>
               <p class="text-gray-500 lg:col-span-1 lg:row-span-1 lg:col-start-2 p-4"></p>
-          </div>
-        </div>
-        <div>
           <h2 class="p-4 text-center text-black dropdown">Coding The Setup</h2>
-          <div class="p-8 border border-b-1 border-gray-200 sm:grid grid-cols-2 grid-rows-1 mt-0">
               <p class="mb-2 text-black lg:col-span-1 lg:row-span-1 lg:col-start-1 p-2">Currently, if you try to follow <a href="https://vpn.sn/setup/tails/level_2-tails-os-tor-vpn" class="text-blue-500 hover:text-blue-800">the tutorial for configuring the VPN.sn anonymous service over Tor in Tails,</a> you will not be able to facilitate the setup due to updates made to Tor browser. <a href="https://vpn.sn/setup/linux/level_2-linux-os" class="text-blue-500 hover:text-blue-800">You could try to follow this setup for configuring the service as a system-wide VPN over a regular distribution of Linux</a> like Debian or Fedora, and since Tor browser can not be configured to not use Tor, you would use Mullvad browser which doesn't utilize Tor</p>
               </p>
               <div class="mb-2 lg:col-span-1 lg:row-span-1 lg:col-start-2 p-2">
                 <img src="img/mullvad.jpeg">
               </div>
               </p>
-          </div>
         </div>
-      </div>
-    </div>
-</section>
-<!--END PAST/PRESENT SECTION-->
 
 <!--FUTURE INVENTIONS-->
-<section class="section3">
+<section class="p-16">
+<h1 class="section-border font2 text-black">Future Inventions That Would Allow Anonymous Access To Websites That Block Tor</h1>
 <section class="p-8">
 <div class="card sm:grid grid-cols-2 grid-rows-2 md:grid-rows-1 p-8 p-8">
     <div class="sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 rounded-xl md:col-start-1 md:row-start-1 space p-4">
@@ -380,7 +329,7 @@
         <p>An innovation for the future of accessing services which block Tor would be any easy to use, in-browser accessible free VPN or proxy network that could be used in Tor Browser to effectively hide from the website that the user is actually accessing the website from the overlaying Tor network.</p>
     </div>
     <div class="text-black sm:col-span-2 sm:row-span-1 md:col-span-1 md:row-span-1 md:col-start-2 md:row-start-2 space p-4">
-        <p>Since you can not unconfigure the Tor network from the modern Tor browser, the only way to access websites that block Tor within the browser is to implement an in-browser solution like startpage's anonymous proxy, wherein the user via Tor, connects to the proxy or virtual machine which then directly connects to the website, teh website only seeing that IP address and the user having the information relayed second hand from the virtual machine or proxy which the website the user is entering from Tor browser only sees that network, and not Tor.</p>
+        <p>Since you can not unconfigure the Tor network from the modern Tor browser, the only way to access websites that block Tor within the browser is to implement an in-browser solution like startpage's anonymous proxy, wherein the user via Tor, connects to the proxy or virtual machine which then directly connects to the website, the website only seeing that IP address and the user having the information relayed second hand from the virtual machine or proxy which the website the user is entering from Tor browser only sees that network, and not Tor.</p>
     </div>
 </div>
 </section>
@@ -393,7 +342,7 @@
         <img src="img/browser-vm.png" class="text-center" alt="gif">
     </div>
     <div class="text-black sm:col-span-2 grid-rows-1 row-span-1 md:col-span-1 md:col-start-2 p-2 md:row-start-1 rounded-xl space p-4">
-       The only future inventions to look into for anonymizing access to websites that block tor and/or are not compatible with the security features of Tor browser would be the revivement and development of in-browser virtual machines. It wouldn't make sense to recreate startpage's anonymous view in-browser proxy stoftware if there is no much chance that educational services like Edpuzzle which require Google's third party advertising and tracking cookies only facilitatable via their browser, chrome. If Tor browser can no longer be configured to not use Tor network, and these services can currently opnly be accessed through different browsers and operating systems (In the case of downloading Mullvad VPN on Fedora or Debian and configuring a system wide VPN), than the ony way to really ever access these services with the gaurantee that you can bypass their anti-privacy detections and retain access would be to run entire standalone operating syetms which can have different browsers and VPN networks configured within them, while never losing the overlaying anonymity of Tor.
+       The only future inventions to look into for anonymizing access to websites that block tor and/or are not compatible with the security features of Tor browser would be the revivement and development of in-browser virtual machines. It wouldn't make sense to recreate startpage's anonymous view in-browser proxy stoftware if there is no much chance that educational services like Edpuzzle which require Google's third party advertising and tracking cookies only facilitatable via their browser, chrome. If Tor browser can no longer be configured to not use Tor network, and these services can currently only be accessed through different browsers and operating systems (In the case of downloading Mullvad VPN on Fedora or Debian and configuring a system wide VPN), than the ony way to really ever access these services with the gaurantee that you can bypass their anti-privacy detections and retain access would be to run entire standalone operating syetms which can have different browsers and VPN networks configured within them, while never losing the overlaying anonymity of Tor.
     </div>
 </div>
 </section>
